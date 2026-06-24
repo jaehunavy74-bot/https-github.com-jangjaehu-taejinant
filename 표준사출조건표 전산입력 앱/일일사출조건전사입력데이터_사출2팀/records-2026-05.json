@@ -1,0 +1,66 @@
+{
+  "month": "2026-05",
+  "records": [
+    {
+      "id": "652572fd-2ae0-41c3-a678-2e6077751c52",
+      "savedAt": "2026-05-12T07:35:50.384Z",
+      "productId": "P-001",
+      "meta": {
+        "년": 2026,
+        "월": 5,
+        "일": 12,
+        "차종": "GARNISH",
+        "품명": "UPR CVR_수출",
+        "호기": "5호기",
+        "TON": 850,
+        "이름": "장재후",
+        "원재료명": "ABS-XR404",
+        "색상": "BLACK",
+        "CAVITY": 2
+      },
+      "values": {
+        "HR_TYPE": "K",
+        "IJ_V1": 65,
+        "IJ_V2": 20,
+        "IJ_V3": 50
+      },
+      "judgement": {
+        "totalParams": 3,
+        "ok": 3,
+        "warn": 0,
+        "out": 0
+      }
+    },
+    {
+      "id": "0285c4c9-c58f-423b-8548-d7172a9c5ece",
+      "savedAt": "2026-06-19T04:01:20.007Z",
+      "productId": "P-001",
+      "meta": {
+        "년": 2026,
+        "월": 5,
+        "일": 12,
+        "차종": "GARNISH",
+        "품명": "UPR CVR_수출",
+        "호기": "5호기",
+        "TON": 850,
+        "이름": "장재후",
+        "원재료명": "ABS-XR404",
+        "색상": "BLACK",
+        "CAVITY": 2
+      },
+      "values": {
+        "HR_TYPE": "K",
+        "IJ_V1": 65,
+        "IJ_V2": 20,
+        "IJ_V3": 50
+      },
+      "judgement": {
+        "totalParams": 3,
+        "ok": 3,
+        "warn": 0,
+        "out": 0
+      }
+    }
+  ],
+  "updatedAt": "2026-06-19T04:01:20.008Z"
+}

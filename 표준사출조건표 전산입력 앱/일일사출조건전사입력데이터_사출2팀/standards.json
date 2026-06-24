@@ -1,0 +1,8452 @@
+{
+  "version": "2.0",
+  "updatedAt": "2026-06-19T08:05:24.479Z",
+  "activeProductId": "P-001",
+  "products": [
+    {
+      "id": "P-001",
+      "차종": "GARNISH",
+      "품명": "UPR CVR_수출",
+      "defaults": {
+        "호기": "5호기",
+        "TON": 850,
+        "이름": "장재후",
+        "품번": "GR-UPR-EX-001",
+        "모델명": "GARNISH_수출_TAIL",
+        "원재료명": "ABS-XR404",
+        "GRADE": "HU600",
+        "색상": "BLACK",
+        "CAVITY": 2
+      },
+      "items": [
+        {
+          "code": "IJ_V1",
+          "group": "사출속도",
+          "name": "1단",
+          "unit": "mm/s",
+          "target": 60,
+          "ucl": 70,
+          "lcl": 50,
+          "enabled": true
+        },
+        {
+          "code": "IJ_V2",
+          "group": "사출속도",
+          "name": "2단",
+          "unit": "mm/s",
+          "target": 20,
+          "ucl": 25,
+          "lcl": 15,
+          "enabled": true
+        },
+        {
+          "code": "IJ_V3",
+          "group": "사출속도",
+          "name": "3단",
+          "unit": "mm/s",
+          "target": 50,
+          "ucl": 60,
+          "lcl": 40,
+          "enabled": true
+        },
+        {
+          "code": "IJ_V4",
+          "group": "사출속도",
+          "name": "4단",
+          "unit": "mm/s",
+          "target": 15,
+          "ucl": 20,
+          "lcl": 10,
+          "enabled": true
+        },
+        {
+          "code": "IJ_V5",
+          "group": "사출속도",
+          "name": "5단",
+          "unit": "mm/s",
+          "target": 10,
+          "ucl": 15,
+          "lcl": 5,
+          "enabled": true
+        },
+        {
+          "code": "IJ_V6",
+          "group": "사출속도",
+          "name": "6단",
+          "unit": "mm/s",
+          "target": 10,
+          "ucl": 15,
+          "lcl": 5,
+          "enabled": true
+        },
+        {
+          "code": "IJ_P1",
+          "group": "사출압력",
+          "name": "1단",
+          "unit": "RKg",
+          "target": 195,
+          "ucl": 210,
+          "lcl": 180,
+          "enabled": true
+        },
+        {
+          "code": "IJ_P2",
+          "group": "사출압력",
+          "name": "2단",
+          "unit": "RKg",
+          "target": 195,
+          "ucl": 210,
+          "lcl": 180,
+          "enabled": true
+        },
+        {
+          "code": "IJ_P3",
+          "group": "사출압력",
+          "name": "3단",
+          "unit": "RKg",
+          "target": 195,
+          "ucl": 210,
+          "lcl": 180,
+          "enabled": true
+        },
+        {
+          "code": "IJ_P4",
+          "group": "사출압력",
+          "name": "4단",
+          "unit": "RKg",
+          "target": 195,
+          "ucl": 210,
+          "lcl": 180,
+          "enabled": true
+        },
+        {
+          "code": "IJ_P5",
+          "group": "사출압력",
+          "name": "5단",
+          "unit": "RKg",
+          "target": 195,
+          "ucl": 210,
+          "lcl": 180,
+          "enabled": true
+        },
+        {
+          "code": "IJ_P6",
+          "group": "사출압력",
+          "name": "6단",
+          "unit": "RKg",
+          "target": 195,
+          "ucl": 210,
+          "lcl": 180,
+          "enabled": true
+        },
+        {
+          "code": "IJ_S1",
+          "group": "사출위치",
+          "name": "1단",
+          "unit": "mm",
+          "target": 14,
+          "ucl": 17,
+          "lcl": 11,
+          "enabled": true
+        },
+        {
+          "code": "IJ_S2",
+          "group": "사출위치",
+          "name": "2단",
+          "unit": "mm",
+          "target": 80,
+          "ucl": 85,
+          "lcl": 75,
+          "enabled": true
+        },
+        {
+          "code": "IJ_S3",
+          "group": "사출위치",
+          "name": "3단",
+          "unit": "mm",
+          "target": 130,
+          "ucl": 135,
+          "lcl": 125,
+          "enabled": true
+        },
+        {
+          "code": "IJ_S4",
+          "group": "사출위치",
+          "name": "4단",
+          "unit": "mm",
+          "target": 162,
+          "ucl": 167,
+          "lcl": 157,
+          "enabled": true
+        },
+        {
+          "code": "IJ_S5",
+          "group": "사출위치",
+          "name": "5단",
+          "unit": "mm",
+          "target": 14,
+          "ucl": 17,
+          "lcl": 11,
+          "enabled": true
+        },
+        {
+          "code": "IJ_S6",
+          "group": "사출위치",
+          "name": "6단",
+          "unit": "mm",
+          "target": 14,
+          "ucl": 17,
+          "lcl": 11,
+          "enabled": true
+        },
+        {
+          "code": "IJ_FILL",
+          "group": "사이클 타임(CT)",
+          "name": "충진시간",
+          "unit": "sec",
+          "target": 3,
+          "ucl": 3.5,
+          "lcl": 2.5,
+          "enabled": true
+        },
+        {
+          "code": "IJ_TIME",
+          "group": "사이클 타임(CT)",
+          "name": "사출시간",
+          "unit": "sec",
+          "target": 15,
+          "ucl": 16,
+          "lcl": 14,
+          "enabled": true
+        },
+        {
+          "code": "IJ_CUSHION",
+          "group": "사이클 타임(CT)",
+          "name": "쿠션잔량",
+          "unit": "mm",
+          "target": 12,
+          "ucl": 15,
+          "lcl": 9,
+          "enabled": true
+        },
+        {
+          "code": "CYC_COOL",
+          "group": "사이클 타임(CT)",
+          "name": "냉각시간",
+          "unit": "sec",
+          "target": 57,
+          "ucl": 62,
+          "lcl": 52,
+          "enabled": true
+        },
+        {
+          "code": "HP_T_PH1",
+          "group": "사이클 타임(CT)",
+          "name": "보압시간 PH1",
+          "unit": "sec",
+          "target": 0,
+          "ucl": 1,
+          "lcl": -1,
+          "enabled": true
+        },
+        {
+          "code": "HP_T_PH2",
+          "group": "사이클 타임(CT)",
+          "name": "보압시간 PH2",
+          "unit": "sec",
+          "target": 9,
+          "ucl": 10,
+          "lcl": 8,
+          "enabled": true
+        },
+        {
+          "code": "HP_T_PH3",
+          "group": "사이클 타임(CT)",
+          "name": "보압시간 PH3",
+          "unit": "sec",
+          "target": 0,
+          "ucl": 1,
+          "lcl": -1,
+          "enabled": true
+        },
+        {
+          "code": "HP_T_PH4",
+          "group": "사이클 타임(CT)",
+          "name": "보압시간 PH4",
+          "unit": "sec",
+          "target": 0,
+          "ucl": 1,
+          "lcl": -1,
+          "enabled": true
+        },
+        {
+          "code": "CYC_TOTAL",
+          "group": "사이클 타임(CT)",
+          "name": "CYCLE TIME",
+          "unit": "sec",
+          "target": 95,
+          "ucl": 100,
+          "lcl": 90,
+          "enabled": true
+        },
+        {
+          "code": "HP_P1",
+          "group": "보압압력",
+          "name": "1단",
+          "unit": "bar",
+          "target": 110,
+          "ucl": 120,
+          "lcl": 100,
+          "enabled": true
+        },
+        {
+          "code": "HP_P2",
+          "group": "보압압력",
+          "name": "2단",
+          "unit": "bar",
+          "target": 110,
+          "ucl": 120,
+          "lcl": 100,
+          "enabled": true
+        },
+        {
+          "code": "HP_P3",
+          "group": "보압압력",
+          "name": "3단",
+          "unit": "bar",
+          "target": 110,
+          "ucl": 120,
+          "lcl": 100,
+          "enabled": true
+        },
+        {
+          "code": "HP_P4",
+          "group": "보압압력",
+          "name": "4단",
+          "unit": "bar",
+          "target": 110,
+          "ucl": 120,
+          "lcl": 100,
+          "enabled": true
+        },
+        {
+          "code": "HP_P5",
+          "group": "보압압력",
+          "name": "5단",
+          "unit": "bar",
+          "target": 110,
+          "ucl": 120,
+          "lcl": 100,
+          "enabled": true
+        },
+        {
+          "code": "BP_1",
+          "group": "배압",
+          "name": "1단",
+          "unit": "bar",
+          "target": 20,
+          "ucl": 25,
+          "lcl": 15,
+          "enabled": true
+        },
+        {
+          "code": "BP_2",
+          "group": "배압",
+          "name": "2단",
+          "unit": "bar",
+          "target": 20,
+          "ucl": 25,
+          "lcl": 15,
+          "enabled": true
+        },
+        {
+          "code": "BP_3",
+          "group": "배압",
+          "name": "3단",
+          "unit": "bar",
+          "target": 20,
+          "ucl": 25,
+          "lcl": 15,
+          "enabled": true
+        },
+        {
+          "code": "PL_V1",
+          "group": "계량속도",
+          "name": "1단",
+          "unit": "%",
+          "target": 20,
+          "ucl": 25,
+          "lcl": 15,
+          "enabled": true
+        },
+        {
+          "code": "PL_V2",
+          "group": "계량속도",
+          "name": "2단",
+          "unit": "%",
+          "target": 20,
+          "ucl": 25,
+          "lcl": 15,
+          "enabled": true
+        },
+        {
+          "code": "PL_V3",
+          "group": "계량속도",
+          "name": "3단",
+          "unit": "%",
+          "target": 20,
+          "ucl": 25,
+          "lcl": 15,
+          "enabled": true
+        },
+        {
+          "code": "PL_DONE",
+          "group": "계량완료",
+          "name": "계량완료거리",
+          "unit": "mm",
+          "target": 150,
+          "ucl": 160,
+          "lcl": 140,
+          "enabled": true
+        },
+        {
+          "code": "CY_NOZZLE",
+          "group": "실린더온도",
+          "name": "노즐",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "CY_H1",
+          "group": "실린더온도",
+          "name": "H1",
+          "unit": "℃",
+          "target": 250,
+          "ucl": 260,
+          "lcl": 240,
+          "enabled": true
+        },
+        {
+          "code": "CY_H2",
+          "group": "실린더온도",
+          "name": "H2",
+          "unit": "℃",
+          "target": 250,
+          "ucl": 260,
+          "lcl": 240,
+          "enabled": true
+        },
+        {
+          "code": "CY_H3",
+          "group": "실린더온도",
+          "name": "H3",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "CY_H4",
+          "group": "실린더온도",
+          "name": "H4",
+          "unit": "℃",
+          "target": 230,
+          "ucl": 240,
+          "lcl": 220,
+          "enabled": true
+        },
+        {
+          "code": "CY_H5",
+          "group": "실린더온도",
+          "name": "H5",
+          "unit": "℃",
+          "target": 220,
+          "ucl": 230,
+          "lcl": 210,
+          "enabled": true
+        },
+        {
+          "code": "CY_H6",
+          "group": "실린더온도",
+          "name": "H6",
+          "unit": "℃",
+          "target": 200,
+          "ucl": 210,
+          "lcl": 190,
+          "enabled": true
+        },
+        {
+          "code": "HR_TYPE",
+          "group": "핫러너",
+          "name": "열전대타입",
+          "unit": "-",
+          "textType": true,
+          "options": [
+            "K",
+            "J"
+          ],
+          "target": "K",
+          "ucl": null,
+          "lcl": null,
+          "enabled": true
+        },
+        {
+          "code": "HR_H1",
+          "group": "핫러너",
+          "name": "H1",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H2",
+          "group": "핫러너",
+          "name": "H2",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H3",
+          "group": "핫러너",
+          "name": "H3",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H4",
+          "group": "핫러너",
+          "name": "H4",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H5",
+          "group": "핫러너",
+          "name": "H5",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H6",
+          "group": "핫러너",
+          "name": "H6",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H7",
+          "group": "핫러너",
+          "name": "H7",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H8",
+          "group": "핫러너",
+          "name": "H8",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H9",
+          "group": "핫러너",
+          "name": "H9",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H10",
+          "group": "핫러너",
+          "name": "H10",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H11",
+          "group": "핫러너",
+          "name": "H11",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H12",
+          "group": "핫러너",
+          "name": "H12",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H13",
+          "group": "핫러너",
+          "name": "H13",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H14",
+          "group": "핫러너",
+          "name": "H14",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H15",
+          "group": "핫러너",
+          "name": "H15",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H16",
+          "group": "핫러너",
+          "name": "H16",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H17",
+          "group": "핫러너",
+          "name": "H17",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H18",
+          "group": "핫러너",
+          "name": "H18",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H19",
+          "group": "핫러너",
+          "name": "H19",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H20",
+          "group": "핫러너",
+          "name": "H20",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H21",
+          "group": "핫러너",
+          "name": "H21",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H22",
+          "group": "핫러너",
+          "name": "H22",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H23",
+          "group": "핫러너",
+          "name": "H23",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H24",
+          "group": "핫러너",
+          "name": "H24",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H25",
+          "group": "핫러너",
+          "name": "H25",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H26",
+          "group": "핫러너",
+          "name": "H26",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H27",
+          "group": "핫러너",
+          "name": "H27",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H28",
+          "group": "핫러너",
+          "name": "H28",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H29",
+          "group": "핫러너",
+          "name": "H29",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H30",
+          "group": "핫러너",
+          "name": "H30",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H31",
+          "group": "핫러너",
+          "name": "H31",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H32",
+          "group": "핫러너",
+          "name": "H32",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H33",
+          "group": "핫러너",
+          "name": "H33",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H34",
+          "group": "핫러너",
+          "name": "H34",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H35",
+          "group": "핫러너",
+          "name": "H35",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H36",
+          "group": "핫러너",
+          "name": "H36",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H37",
+          "group": "핫러너",
+          "name": "H37",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H38",
+          "group": "핫러너",
+          "name": "H38",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H39",
+          "group": "핫러너",
+          "name": "H39",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H40",
+          "group": "핫러너",
+          "name": "H40",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H41",
+          "group": "핫러너",
+          "name": "H41",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H42",
+          "group": "핫러너",
+          "name": "H42",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H43",
+          "group": "핫러너",
+          "name": "H43",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H44",
+          "group": "핫러너",
+          "name": "H44",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H45",
+          "group": "핫러너",
+          "name": "H45",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H46",
+          "group": "핫러너",
+          "name": "H46",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H47",
+          "group": "핫러너",
+          "name": "H47",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H48",
+          "group": "핫러너",
+          "name": "H48",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H49",
+          "group": "핫러너",
+          "name": "H49",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H50",
+          "group": "핫러너",
+          "name": "H50",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H51",
+          "group": "핫러너",
+          "name": "H51",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H52",
+          "group": "핫러너",
+          "name": "H52",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H53",
+          "group": "핫러너",
+          "name": "H53",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H54",
+          "group": "핫러너",
+          "name": "H54",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H55",
+          "group": "핫러너",
+          "name": "H55",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H56",
+          "group": "핫러너",
+          "name": "H56",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H57",
+          "group": "핫러너",
+          "name": "H57",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H58",
+          "group": "핫러너",
+          "name": "H58",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H59",
+          "group": "핫러너",
+          "name": "H59",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H60",
+          "group": "핫러너",
+          "name": "H60",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H61",
+          "group": "핫러너",
+          "name": "H61",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H62",
+          "group": "핫러너",
+          "name": "H62",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H63",
+          "group": "핫러너",
+          "name": "H63",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H64",
+          "group": "핫러너",
+          "name": "H64",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H65",
+          "group": "핫러너",
+          "name": "H65",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H66",
+          "group": "핫러너",
+          "name": "H66",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H67",
+          "group": "핫러너",
+          "name": "H67",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H68",
+          "group": "핫러너",
+          "name": "H68",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H69",
+          "group": "핫러너",
+          "name": "H69",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H70",
+          "group": "핫러너",
+          "name": "H70",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H71",
+          "group": "핫러너",
+          "name": "H71",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H72",
+          "group": "핫러너",
+          "name": "H72",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H73",
+          "group": "핫러너",
+          "name": "H73",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H74",
+          "group": "핫러너",
+          "name": "H74",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H75",
+          "group": "핫러너",
+          "name": "H75",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H76",
+          "group": "핫러너",
+          "name": "H76",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H77",
+          "group": "핫러너",
+          "name": "H77",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H78",
+          "group": "핫러너",
+          "name": "H78",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "VG1_DELAY",
+          "group": "벨브타이머",
+          "name": "GATE1_DELAY",
+          "unit": "sec",
+          "target": 0,
+          "ucl": 1,
+          "lcl": -1,
+          "enabled": true
+        },
+        {
+          "code": "VG1_OPEN",
+          "group": "벨브타이머",
+          "name": "GATE1_OPEN",
+          "unit": "sec",
+          "target": 2,
+          "ucl": 3,
+          "lcl": 1,
+          "enabled": true,
+          "vgType": "A"
+        },
+        {
+          "code": "VG2_DELAY",
+          "group": "벨브타이머",
+          "name": "GATE2_DELAY",
+          "unit": "sec",
+          "target": 2.7,
+          "ucl": 3.7,
+          "lcl": 1.7,
+          "enabled": true
+        },
+        {
+          "code": "VG2_OPEN",
+          "group": "벨브타이머",
+          "name": "GATE2_OPEN",
+          "unit": "sec",
+          "target": 2,
+          "ucl": 3,
+          "lcl": 1,
+          "enabled": true,
+          "vgType": "A"
+        },
+        {
+          "code": "VG3_DELAY",
+          "group": "벨브타이머",
+          "name": "GATE3_DELAY",
+          "unit": "sec",
+          "target": 0,
+          "ucl": 1,
+          "lcl": -1,
+          "enabled": true
+        },
+        {
+          "code": "VG3_OPEN",
+          "group": "벨브타이머",
+          "name": "GATE3_OPEN",
+          "unit": "sec",
+          "target": 0,
+          "ucl": 1,
+          "lcl": -1,
+          "enabled": true,
+          "vgType": "A"
+        },
+        {
+          "code": "VG4_DELAY",
+          "group": "벨브타이머",
+          "name": "GATE4_DELAY",
+          "unit": "sec",
+          "target": 2.5,
+          "ucl": 3.5,
+          "lcl": 1.5,
+          "enabled": true
+        },
+        {
+          "code": "VG4_OPEN",
+          "group": "벨브타이머",
+          "name": "GATE4_OPEN",
+          "unit": "sec",
+          "target": 2,
+          "ucl": 3,
+          "lcl": 1,
+          "enabled": true,
+          "vgType": "A"
+        },
+        {
+          "code": "VG5_DELAY",
+          "group": "벨브타이머",
+          "name": "GATE5_DELAY",
+          "unit": "sec",
+          "target": 0,
+          "ucl": 1,
+          "lcl": -1,
+          "enabled": true
+        },
+        {
+          "code": "VG5_OPEN",
+          "group": "벨브타이머",
+          "name": "GATE5_OPEN",
+          "unit": "sec",
+          "target": 0,
+          "ucl": 1,
+          "lcl": -1,
+          "enabled": true,
+          "vgType": "A"
+        },
+        {
+          "code": "VG6_DELAY",
+          "group": "벨브타이머",
+          "name": "GATE6_DELAY",
+          "unit": "sec",
+          "target": 0,
+          "ucl": 1,
+          "lcl": -1,
+          "enabled": true
+        },
+        {
+          "code": "VG6_OPEN",
+          "group": "벨브타이머",
+          "name": "GATE6_OPEN",
+          "unit": "sec",
+          "target": 0,
+          "ucl": 1,
+          "lcl": -1,
+          "enabled": true,
+          "vgType": "A"
+        },
+        {
+          "code": "VG7_DELAY",
+          "group": "벨브타이머",
+          "name": "GATE7_DELAY",
+          "unit": "sec",
+          "target": 0,
+          "ucl": 1,
+          "lcl": -1,
+          "enabled": true
+        },
+        {
+          "code": "VG7_OPEN",
+          "group": "벨브타이머",
+          "name": "GATE7_OPEN",
+          "unit": "sec",
+          "target": 0,
+          "ucl": 1,
+          "lcl": -1,
+          "enabled": true,
+          "vgType": "A"
+        },
+        {
+          "code": "VG8_DELAY",
+          "group": "벨브타이머",
+          "name": "GATE8_DELAY",
+          "unit": "sec",
+          "target": 0,
+          "ucl": 1,
+          "lcl": -1,
+          "enabled": true
+        },
+        {
+          "code": "VG8_OPEN",
+          "group": "벨브타이머",
+          "name": "GATE8_OPEN",
+          "unit": "sec",
+          "target": 0,
+          "ucl": 1,
+          "lcl": -1,
+          "enabled": true,
+          "vgType": "A"
+        },
+        {
+          "code": "VG9_DELAY",
+          "group": "벨브타이머",
+          "name": "GATE9_DELAY",
+          "unit": "sec",
+          "target": 0,
+          "ucl": 1,
+          "lcl": -1,
+          "enabled": true
+        },
+        {
+          "code": "VG9_OPEN",
+          "group": "벨브타이머",
+          "name": "GATE9_OPEN",
+          "unit": "sec",
+          "target": 0,
+          "ucl": 1,
+          "lcl": -1,
+          "enabled": true,
+          "vgType": "A"
+        },
+        {
+          "code": "VG10_DELAY",
+          "group": "벨브타이머",
+          "name": "GATE10_DELAY",
+          "unit": "sec",
+          "target": 0,
+          "ucl": 1,
+          "lcl": -1,
+          "enabled": true
+        },
+        {
+          "code": "VG10_OPEN",
+          "group": "벨브타이머",
+          "name": "GATE10_OPEN",
+          "unit": "sec",
+          "target": 0,
+          "ucl": 1,
+          "lcl": -1,
+          "enabled": true,
+          "vgType": "A"
+        },
+        {
+          "code": "VG11_DELAY",
+          "group": "벨브타이머",
+          "name": "GATE11_DELAY",
+          "unit": "sec",
+          "target": 0,
+          "ucl": 1,
+          "lcl": -1,
+          "enabled": true
+        },
+        {
+          "code": "VG11_OPEN",
+          "group": "벨브타이머",
+          "name": "GATE11_OPEN",
+          "unit": "sec",
+          "target": 0,
+          "ucl": 1,
+          "lcl": -1,
+          "enabled": true,
+          "vgType": "A"
+        },
+        {
+          "code": "VG12_DELAY",
+          "group": "벨브타이머",
+          "name": "GATE12_DELAY",
+          "unit": "sec",
+          "target": 0,
+          "ucl": 1,
+          "lcl": -1,
+          "enabled": true
+        },
+        {
+          "code": "VG12_OPEN",
+          "group": "벨브타이머",
+          "name": "GATE12_OPEN",
+          "unit": "sec",
+          "target": 0,
+          "ucl": 1,
+          "lcl": -1,
+          "enabled": true,
+          "vgType": "A"
+        },
+        {
+          "code": "VG13_DELAY",
+          "group": "벨브타이머",
+          "name": "GATE13_DELAY",
+          "unit": "sec",
+          "target": 0,
+          "ucl": 1,
+          "lcl": -1,
+          "enabled": true
+        },
+        {
+          "code": "VG13_OPEN",
+          "group": "벨브타이머",
+          "name": "GATE13_OPEN",
+          "unit": "sec",
+          "target": 0,
+          "ucl": 1,
+          "lcl": -1,
+          "enabled": true,
+          "vgType": "A"
+        },
+        {
+          "code": "VG14_DELAY",
+          "group": "벨브타이머",
+          "name": "GATE14_DELAY",
+          "unit": "sec",
+          "target": 0,
+          "ucl": 1,
+          "lcl": -1,
+          "enabled": true
+        },
+        {
+          "code": "VG14_OPEN",
+          "group": "벨브타이머",
+          "name": "GATE14_OPEN",
+          "unit": "sec",
+          "target": 0,
+          "ucl": 1,
+          "lcl": -1,
+          "enabled": true,
+          "vgType": "A"
+        },
+        {
+          "code": "VG15_DELAY",
+          "group": "벨브타이머",
+          "name": "GATE15_DELAY",
+          "unit": "sec",
+          "target": 0,
+          "ucl": 1,
+          "lcl": -1,
+          "enabled": true
+        },
+        {
+          "code": "VG15_OPEN",
+          "group": "벨브타이머",
+          "name": "GATE15_OPEN",
+          "unit": "sec",
+          "target": 0,
+          "ucl": 1,
+          "lcl": -1,
+          "enabled": true,
+          "vgType": "A"
+        },
+        {
+          "code": "VG16_DELAY",
+          "group": "벨브타이머",
+          "name": "GATE16_DELAY",
+          "unit": "sec",
+          "target": 0,
+          "ucl": 1,
+          "lcl": -1,
+          "enabled": true
+        },
+        {
+          "code": "VG16_OPEN",
+          "group": "벨브타이머",
+          "name": "GATE16_OPEN",
+          "unit": "sec",
+          "target": 0,
+          "ucl": 1,
+          "lcl": -1,
+          "enabled": true,
+          "vgType": "A"
+        },
+        {
+          "code": "MT_FIX",
+          "group": "금형온도1",
+          "name": "고정측",
+          "unit": "℃",
+          "target": 50,
+          "ucl": 60,
+          "lcl": 40,
+          "enabled": true
+        },
+        {
+          "code": "MT_MOV",
+          "group": "금형온도1",
+          "name": "이동측",
+          "unit": "℃",
+          "target": 30,
+          "ucl": 35,
+          "lcl": 25,
+          "enabled": true
+        },
+        {
+          "code": "MT2_FIX",
+          "group": "금형온도2",
+          "name": "고정측",
+          "unit": "℃",
+          "target": 40,
+          "ucl": 45,
+          "lcl": 35,
+          "enabled": true
+        },
+        {
+          "code": "MT2_MOV",
+          "group": "금형온도2",
+          "name": "이동측",
+          "unit": "℃",
+          "target": 30,
+          "ucl": 35,
+          "lcl": 25,
+          "enabled": true
+        },
+        {
+          "code": "CH_FIX",
+          "group": "칠러온도1",
+          "name": "고정측",
+          "unit": "℃",
+          "target": 25,
+          "ucl": 30,
+          "lcl": 20,
+          "enabled": true
+        },
+        {
+          "code": "CH_MOV",
+          "group": "칠러온도1",
+          "name": "이동측",
+          "unit": "℃",
+          "target": 20,
+          "ucl": 25,
+          "lcl": 15,
+          "enabled": true
+        },
+        {
+          "code": "CH2_FIX",
+          "group": "칠러온도2",
+          "name": "고정측",
+          "unit": "℃",
+          "target": 25,
+          "ucl": 30,
+          "lcl": 20,
+          "enabled": true
+        },
+        {
+          "code": "CH2_MOV",
+          "group": "칠러온도2",
+          "name": "이동측",
+          "unit": "℃",
+          "target": 20,
+          "ucl": 25,
+          "lcl": 15,
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "id": "P-002",
+      "차종": "GARNISH",
+      "품명": "UPR CVR_내수",
+      "defaults": {
+        "호기": "5호기",
+        "TON": 850,
+        "이름": "장재후",
+        "품번": "GR-UPR-DM-001",
+        "모델명": "GARNISH_내수_TAIL",
+        "원재료명": "ABS-XR404",
+        "GRADE": "HU600",
+        "색상": "BLACK",
+        "CAVITY": 2
+      },
+      "items": [
+        {
+          "code": "IJ_V1",
+          "group": "사출속도",
+          "name": "1단",
+          "unit": "mm/s",
+          "target": 60,
+          "ucl": 70,
+          "lcl": 50,
+          "enabled": true
+        },
+        {
+          "code": "IJ_V2",
+          "group": "사출속도",
+          "name": "2단",
+          "unit": "mm/s",
+          "target": 20,
+          "ucl": 25,
+          "lcl": 15,
+          "enabled": true
+        },
+        {
+          "code": "IJ_V3",
+          "group": "사출속도",
+          "name": "3단",
+          "unit": "mm/s",
+          "target": 50,
+          "ucl": 60,
+          "lcl": 40,
+          "enabled": true
+        },
+        {
+          "code": "IJ_V4",
+          "group": "사출속도",
+          "name": "4단",
+          "unit": "mm/s",
+          "target": 15,
+          "ucl": 20,
+          "lcl": 10,
+          "enabled": true
+        },
+        {
+          "code": "IJ_V5",
+          "group": "사출속도",
+          "name": "5단",
+          "unit": "mm/s",
+          "target": 10,
+          "ucl": 15,
+          "lcl": 5,
+          "enabled": true
+        },
+        {
+          "code": "IJ_V6",
+          "group": "사출속도",
+          "name": "6단",
+          "unit": "mm/s",
+          "target": 10,
+          "ucl": 15,
+          "lcl": 5,
+          "enabled": true
+        },
+        {
+          "code": "IJ_P1",
+          "group": "사출압력",
+          "name": "1단",
+          "unit": "RKg",
+          "target": 195,
+          "ucl": 210,
+          "lcl": 180,
+          "enabled": true
+        },
+        {
+          "code": "IJ_P2",
+          "group": "사출압력",
+          "name": "2단",
+          "unit": "RKg",
+          "target": 195,
+          "ucl": 210,
+          "lcl": 180,
+          "enabled": true
+        },
+        {
+          "code": "IJ_P3",
+          "group": "사출압력",
+          "name": "3단",
+          "unit": "RKg",
+          "target": 195,
+          "ucl": 210,
+          "lcl": 180,
+          "enabled": true
+        },
+        {
+          "code": "IJ_P4",
+          "group": "사출압력",
+          "name": "4단",
+          "unit": "RKg",
+          "target": 195,
+          "ucl": 210,
+          "lcl": 180,
+          "enabled": true
+        },
+        {
+          "code": "IJ_P5",
+          "group": "사출압력",
+          "name": "5단",
+          "unit": "RKg",
+          "target": 195,
+          "ucl": 210,
+          "lcl": 180,
+          "enabled": true
+        },
+        {
+          "code": "IJ_P6",
+          "group": "사출압력",
+          "name": "6단",
+          "unit": "RKg",
+          "target": 195,
+          "ucl": 210,
+          "lcl": 180,
+          "enabled": true
+        },
+        {
+          "code": "IJ_S1",
+          "group": "사출위치",
+          "name": "1단",
+          "unit": "mm",
+          "target": 14,
+          "ucl": 17,
+          "lcl": 11,
+          "enabled": true
+        },
+        {
+          "code": "IJ_S2",
+          "group": "사출위치",
+          "name": "2단",
+          "unit": "mm",
+          "target": 80,
+          "ucl": 85,
+          "lcl": 75,
+          "enabled": true
+        },
+        {
+          "code": "IJ_S3",
+          "group": "사출위치",
+          "name": "3단",
+          "unit": "mm",
+          "target": 130,
+          "ucl": 135,
+          "lcl": 125,
+          "enabled": true
+        },
+        {
+          "code": "IJ_S4",
+          "group": "사출위치",
+          "name": "4단",
+          "unit": "mm",
+          "target": 162,
+          "ucl": 167,
+          "lcl": 157,
+          "enabled": true
+        },
+        {
+          "code": "IJ_S5",
+          "group": "사출위치",
+          "name": "5단",
+          "unit": "mm",
+          "target": 14,
+          "ucl": 17,
+          "lcl": 11,
+          "enabled": true
+        },
+        {
+          "code": "IJ_S6",
+          "group": "사출위치",
+          "name": "6단",
+          "unit": "mm",
+          "target": 14,
+          "ucl": 17,
+          "lcl": 11,
+          "enabled": true
+        },
+        {
+          "code": "IJ_FILL",
+          "group": "사이클 타임(CT)",
+          "name": "충진시간",
+          "unit": "sec",
+          "target": 3,
+          "ucl": 3.5,
+          "lcl": 2.5,
+          "enabled": true
+        },
+        {
+          "code": "IJ_TIME",
+          "group": "사이클 타임(CT)",
+          "name": "사출시간",
+          "unit": "sec",
+          "target": 15,
+          "ucl": 16,
+          "lcl": 14,
+          "enabled": true
+        },
+        {
+          "code": "IJ_CUSHION",
+          "group": "사이클 타임(CT)",
+          "name": "쿠션잔량",
+          "unit": "mm",
+          "target": 12,
+          "ucl": 15,
+          "lcl": 9,
+          "enabled": true
+        },
+        {
+          "code": "CYC_COOL",
+          "group": "사이클 타임(CT)",
+          "name": "냉각시간",
+          "unit": "sec",
+          "target": 57,
+          "ucl": 62,
+          "lcl": 52,
+          "enabled": true
+        },
+        {
+          "code": "HP_T_PH1",
+          "group": "사이클 타임(CT)",
+          "name": "보압시간 PH1",
+          "unit": "sec",
+          "target": 0,
+          "ucl": 1,
+          "lcl": -1,
+          "enabled": true
+        },
+        {
+          "code": "HP_T_PH2",
+          "group": "사이클 타임(CT)",
+          "name": "보압시간 PH2",
+          "unit": "sec",
+          "target": 9,
+          "ucl": 10,
+          "lcl": 8,
+          "enabled": true
+        },
+        {
+          "code": "HP_T_PH3",
+          "group": "사이클 타임(CT)",
+          "name": "보압시간 PH3",
+          "unit": "sec",
+          "target": 0,
+          "ucl": 1,
+          "lcl": -1,
+          "enabled": true
+        },
+        {
+          "code": "HP_T_PH4",
+          "group": "사이클 타임(CT)",
+          "name": "보압시간 PH4",
+          "unit": "sec",
+          "target": 0,
+          "ucl": 1,
+          "lcl": -1,
+          "enabled": true
+        },
+        {
+          "code": "CYC_TOTAL",
+          "group": "사이클 타임(CT)",
+          "name": "CYCLE TIME",
+          "unit": "sec",
+          "target": 95,
+          "ucl": 100,
+          "lcl": 90,
+          "enabled": true
+        },
+        {
+          "code": "HP_P1",
+          "group": "보압압력",
+          "name": "1단",
+          "unit": "bar",
+          "target": 110,
+          "ucl": 120,
+          "lcl": 100,
+          "enabled": true
+        },
+        {
+          "code": "HP_P2",
+          "group": "보압압력",
+          "name": "2단",
+          "unit": "bar",
+          "target": 110,
+          "ucl": 120,
+          "lcl": 100,
+          "enabled": true
+        },
+        {
+          "code": "HP_P3",
+          "group": "보압압력",
+          "name": "3단",
+          "unit": "bar",
+          "target": 110,
+          "ucl": 120,
+          "lcl": 100,
+          "enabled": true
+        },
+        {
+          "code": "HP_P4",
+          "group": "보압압력",
+          "name": "4단",
+          "unit": "bar",
+          "target": 110,
+          "ucl": 120,
+          "lcl": 100,
+          "enabled": true
+        },
+        {
+          "code": "HP_P5",
+          "group": "보압압력",
+          "name": "5단",
+          "unit": "bar",
+          "target": 110,
+          "ucl": 120,
+          "lcl": 100,
+          "enabled": true
+        },
+        {
+          "code": "BP_1",
+          "group": "배압",
+          "name": "1단",
+          "unit": "bar",
+          "target": 20,
+          "ucl": 25,
+          "lcl": 15,
+          "enabled": true
+        },
+        {
+          "code": "BP_2",
+          "group": "배압",
+          "name": "2단",
+          "unit": "bar",
+          "target": 20,
+          "ucl": 25,
+          "lcl": 15,
+          "enabled": true
+        },
+        {
+          "code": "BP_3",
+          "group": "배압",
+          "name": "3단",
+          "unit": "bar",
+          "target": 20,
+          "ucl": 25,
+          "lcl": 15,
+          "enabled": true
+        },
+        {
+          "code": "PL_V1",
+          "group": "계량속도",
+          "name": "1단",
+          "unit": "%",
+          "target": 20,
+          "ucl": 25,
+          "lcl": 15,
+          "enabled": true
+        },
+        {
+          "code": "PL_V2",
+          "group": "계량속도",
+          "name": "2단",
+          "unit": "%",
+          "target": 20,
+          "ucl": 25,
+          "lcl": 15,
+          "enabled": true
+        },
+        {
+          "code": "PL_V3",
+          "group": "계량속도",
+          "name": "3단",
+          "unit": "%",
+          "target": 20,
+          "ucl": 25,
+          "lcl": 15,
+          "enabled": true
+        },
+        {
+          "code": "PL_DONE",
+          "group": "계량완료",
+          "name": "계량완료거리",
+          "unit": "mm",
+          "target": 150,
+          "ucl": 160,
+          "lcl": 140,
+          "enabled": true
+        },
+        {
+          "code": "CY_NOZZLE",
+          "group": "실린더온도",
+          "name": "노즐",
+          "unit": "℃",
+          "target": 235,
+          "ucl": 245,
+          "lcl": 225,
+          "enabled": true
+        },
+        {
+          "code": "CY_H1",
+          "group": "실린더온도",
+          "name": "H1",
+          "unit": "℃",
+          "target": 250,
+          "ucl": 260,
+          "lcl": 240,
+          "enabled": true
+        },
+        {
+          "code": "CY_H2",
+          "group": "실린더온도",
+          "name": "H2",
+          "unit": "℃",
+          "target": 250,
+          "ucl": 260,
+          "lcl": 240,
+          "enabled": true
+        },
+        {
+          "code": "CY_H3",
+          "group": "실린더온도",
+          "name": "H3",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "CY_H4",
+          "group": "실린더온도",
+          "name": "H4",
+          "unit": "℃",
+          "target": 230,
+          "ucl": 240,
+          "lcl": 220,
+          "enabled": true
+        },
+        {
+          "code": "CY_H5",
+          "group": "실린더온도",
+          "name": "H5",
+          "unit": "℃",
+          "target": 220,
+          "ucl": 230,
+          "lcl": 210,
+          "enabled": true
+        },
+        {
+          "code": "CY_H6",
+          "group": "실린더온도",
+          "name": "H6",
+          "unit": "℃",
+          "target": 200,
+          "ucl": 210,
+          "lcl": 190,
+          "enabled": true
+        },
+        {
+          "code": "HR_TYPE",
+          "group": "핫러너",
+          "name": "열전대타입",
+          "unit": "-",
+          "textType": true,
+          "options": [
+            "K",
+            "J"
+          ],
+          "target": "K",
+          "ucl": null,
+          "lcl": null,
+          "enabled": true
+        },
+        {
+          "code": "HR_H1",
+          "group": "핫러너",
+          "name": "H1",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H2",
+          "group": "핫러너",
+          "name": "H2",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H3",
+          "group": "핫러너",
+          "name": "H3",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H4",
+          "group": "핫러너",
+          "name": "H4",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H5",
+          "group": "핫러너",
+          "name": "H5",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H6",
+          "group": "핫러너",
+          "name": "H6",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H7",
+          "group": "핫러너",
+          "name": "H7",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H8",
+          "group": "핫러너",
+          "name": "H8",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H9",
+          "group": "핫러너",
+          "name": "H9",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H10",
+          "group": "핫러너",
+          "name": "H10",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H11",
+          "group": "핫러너",
+          "name": "H11",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H12",
+          "group": "핫러너",
+          "name": "H12",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H13",
+          "group": "핫러너",
+          "name": "H13",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H14",
+          "group": "핫러너",
+          "name": "H14",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H15",
+          "group": "핫러너",
+          "name": "H15",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H16",
+          "group": "핫러너",
+          "name": "H16",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H17",
+          "group": "핫러너",
+          "name": "H17",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H18",
+          "group": "핫러너",
+          "name": "H18",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H19",
+          "group": "핫러너",
+          "name": "H19",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H20",
+          "group": "핫러너",
+          "name": "H20",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H21",
+          "group": "핫러너",
+          "name": "H21",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H22",
+          "group": "핫러너",
+          "name": "H22",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H23",
+          "group": "핫러너",
+          "name": "H23",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H24",
+          "group": "핫러너",
+          "name": "H24",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H25",
+          "group": "핫러너",
+          "name": "H25",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H26",
+          "group": "핫러너",
+          "name": "H26",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H27",
+          "group": "핫러너",
+          "name": "H27",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H28",
+          "group": "핫러너",
+          "name": "H28",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H29",
+          "group": "핫러너",
+          "name": "H29",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H30",
+          "group": "핫러너",
+          "name": "H30",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H31",
+          "group": "핫러너",
+          "name": "H31",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H32",
+          "group": "핫러너",
+          "name": "H32",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H33",
+          "group": "핫러너",
+          "name": "H33",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H34",
+          "group": "핫러너",
+          "name": "H34",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H35",
+          "group": "핫러너",
+          "name": "H35",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H36",
+          "group": "핫러너",
+          "name": "H36",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H37",
+          "group": "핫러너",
+          "name": "H37",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H38",
+          "group": "핫러너",
+          "name": "H38",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H39",
+          "group": "핫러너",
+          "name": "H39",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H40",
+          "group": "핫러너",
+          "name": "H40",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H41",
+          "group": "핫러너",
+          "name": "H41",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H42",
+          "group": "핫러너",
+          "name": "H42",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H43",
+          "group": "핫러너",
+          "name": "H43",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H44",
+          "group": "핫러너",
+          "name": "H44",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H45",
+          "group": "핫러너",
+          "name": "H45",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H46",
+          "group": "핫러너",
+          "name": "H46",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H47",
+          "group": "핫러너",
+          "name": "H47",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H48",
+          "group": "핫러너",
+          "name": "H48",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H49",
+          "group": "핫러너",
+          "name": "H49",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H50",
+          "group": "핫러너",
+          "name": "H50",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H51",
+          "group": "핫러너",
+          "name": "H51",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H52",
+          "group": "핫러너",
+          "name": "H52",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H53",
+          "group": "핫러너",
+          "name": "H53",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H54",
+          "group": "핫러너",
+          "name": "H54",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H55",
+          "group": "핫러너",
+          "name": "H55",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H56",
+          "group": "핫러너",
+          "name": "H56",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H57",
+          "group": "핫러너",
+          "name": "H57",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H58",
+          "group": "핫러너",
+          "name": "H58",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H59",
+          "group": "핫러너",
+          "name": "H59",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H60",
+          "group": "핫러너",
+          "name": "H60",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H61",
+          "group": "핫러너",
+          "name": "H61",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H62",
+          "group": "핫러너",
+          "name": "H62",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H63",
+          "group": "핫러너",
+          "name": "H63",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H64",
+          "group": "핫러너",
+          "name": "H64",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H65",
+          "group": "핫러너",
+          "name": "H65",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H66",
+          "group": "핫러너",
+          "name": "H66",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H67",
+          "group": "핫러너",
+          "name": "H67",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H68",
+          "group": "핫러너",
+          "name": "H68",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H69",
+          "group": "핫러너",
+          "name": "H69",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H70",
+          "group": "핫러너",
+          "name": "H70",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H71",
+          "group": "핫러너",
+          "name": "H71",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H72",
+          "group": "핫러너",
+          "name": "H72",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H73",
+          "group": "핫러너",
+          "name": "H73",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H74",
+          "group": "핫러너",
+          "name": "H74",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H75",
+          "group": "핫러너",
+          "name": "H75",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H76",
+          "group": "핫러너",
+          "name": "H76",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H77",
+          "group": "핫러너",
+          "name": "H77",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H78",
+          "group": "핫러너",
+          "name": "H78",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "VG1_DELAY",
+          "group": "벨브타이머",
+          "name": "GATE1_DELAY",
+          "unit": "sec",
+          "target": 0,
+          "ucl": 1,
+          "lcl": -1,
+          "enabled": true
+        },
+        {
+          "code": "VG1_OPEN",
+          "group": "벨브타이머",
+          "name": "GATE1_OPEN",
+          "unit": "sec",
+          "target": 2,
+          "ucl": 3,
+          "lcl": 1,
+          "enabled": true,
+          "vgType": "A"
+        },
+        {
+          "code": "VG2_DELAY",
+          "group": "벨브타이머",
+          "name": "GATE2_DELAY",
+          "unit": "sec",
+          "target": 2.7,
+          "ucl": 3.7,
+          "lcl": 1.7,
+          "enabled": true
+        },
+        {
+          "code": "VG2_OPEN",
+          "group": "벨브타이머",
+          "name": "GATE2_OPEN",
+          "unit": "sec",
+          "target": 2,
+          "ucl": 3,
+          "lcl": 1,
+          "enabled": true,
+          "vgType": "A"
+        },
+        {
+          "code": "VG3_DELAY",
+          "group": "벨브타이머",
+          "name": "GATE3_DELAY",
+          "unit": "sec",
+          "target": 0,
+          "ucl": 1,
+          "lcl": -1,
+          "enabled": true
+        },
+        {
+          "code": "VG3_OPEN",
+          "group": "벨브타이머",
+          "name": "GATE3_OPEN",
+          "unit": "sec",
+          "target": 0,
+          "ucl": 1,
+          "lcl": -1,
+          "enabled": true,
+          "vgType": "A"
+        },
+        {
+          "code": "VG4_DELAY",
+          "group": "벨브타이머",
+          "name": "GATE4_DELAY",
+          "unit": "sec",
+          "target": 2.5,
+          "ucl": 3.5,
+          "lcl": 1.5,
+          "enabled": true
+        },
+        {
+          "code": "VG4_OPEN",
+          "group": "벨브타이머",
+          "name": "GATE4_OPEN",
+          "unit": "sec",
+          "target": 2,
+          "ucl": 3,
+          "lcl": 1,
+          "enabled": true,
+          "vgType": "A"
+        },
+        {
+          "code": "VG5_DELAY",
+          "group": "벨브타이머",
+          "name": "GATE5_DELAY",
+          "unit": "sec",
+          "target": 0,
+          "ucl": 1,
+          "lcl": -1,
+          "enabled": true
+        },
+        {
+          "code": "VG5_OPEN",
+          "group": "벨브타이머",
+          "name": "GATE5_OPEN",
+          "unit": "sec",
+          "target": 0,
+          "ucl": 1,
+          "lcl": -1,
+          "enabled": true,
+          "vgType": "A"
+        },
+        {
+          "code": "VG6_DELAY",
+          "group": "벨브타이머",
+          "name": "GATE6_DELAY",
+          "unit": "sec",
+          "target": 0,
+          "ucl": 1,
+          "lcl": -1,
+          "enabled": true
+        },
+        {
+          "code": "VG6_OPEN",
+          "group": "벨브타이머",
+          "name": "GATE6_OPEN",
+          "unit": "sec",
+          "target": 0,
+          "ucl": 1,
+          "lcl": -1,
+          "enabled": true,
+          "vgType": "A"
+        },
+        {
+          "code": "VG7_DELAY",
+          "group": "벨브타이머",
+          "name": "GATE7_DELAY",
+          "unit": "sec",
+          "target": 0,
+          "ucl": 1,
+          "lcl": -1,
+          "enabled": true
+        },
+        {
+          "code": "VG7_OPEN",
+          "group": "벨브타이머",
+          "name": "GATE7_OPEN",
+          "unit": "sec",
+          "target": 0,
+          "ucl": 1,
+          "lcl": -1,
+          "enabled": true,
+          "vgType": "A"
+        },
+        {
+          "code": "VG8_DELAY",
+          "group": "벨브타이머",
+          "name": "GATE8_DELAY",
+          "unit": "sec",
+          "target": 0,
+          "ucl": 1,
+          "lcl": -1,
+          "enabled": true
+        },
+        {
+          "code": "VG8_OPEN",
+          "group": "벨브타이머",
+          "name": "GATE8_OPEN",
+          "unit": "sec",
+          "target": 0,
+          "ucl": 1,
+          "lcl": -1,
+          "enabled": true,
+          "vgType": "A"
+        },
+        {
+          "code": "VG9_DELAY",
+          "group": "벨브타이머",
+          "name": "GATE9_DELAY",
+          "unit": "sec",
+          "target": 0,
+          "ucl": 1,
+          "lcl": -1,
+          "enabled": true
+        },
+        {
+          "code": "VG9_OPEN",
+          "group": "벨브타이머",
+          "name": "GATE9_OPEN",
+          "unit": "sec",
+          "target": 0,
+          "ucl": 1,
+          "lcl": -1,
+          "enabled": true,
+          "vgType": "A"
+        },
+        {
+          "code": "VG10_DELAY",
+          "group": "벨브타이머",
+          "name": "GATE10_DELAY",
+          "unit": "sec",
+          "target": 0,
+          "ucl": 1,
+          "lcl": -1,
+          "enabled": true
+        },
+        {
+          "code": "VG10_OPEN",
+          "group": "벨브타이머",
+          "name": "GATE10_OPEN",
+          "unit": "sec",
+          "target": 0,
+          "ucl": 1,
+          "lcl": -1,
+          "enabled": true,
+          "vgType": "A"
+        },
+        {
+          "code": "VG11_DELAY",
+          "group": "벨브타이머",
+          "name": "GATE11_DELAY",
+          "unit": "sec",
+          "target": 0,
+          "ucl": 1,
+          "lcl": -1,
+          "enabled": true
+        },
+        {
+          "code": "VG11_OPEN",
+          "group": "벨브타이머",
+          "name": "GATE11_OPEN",
+          "unit": "sec",
+          "target": 0,
+          "ucl": 1,
+          "lcl": -1,
+          "enabled": true,
+          "vgType": "A"
+        },
+        {
+          "code": "VG12_DELAY",
+          "group": "벨브타이머",
+          "name": "GATE12_DELAY",
+          "unit": "sec",
+          "target": 0,
+          "ucl": 1,
+          "lcl": -1,
+          "enabled": true
+        },
+        {
+          "code": "VG12_OPEN",
+          "group": "벨브타이머",
+          "name": "GATE12_OPEN",
+          "unit": "sec",
+          "target": 0,
+          "ucl": 1,
+          "lcl": -1,
+          "enabled": true,
+          "vgType": "A"
+        },
+        {
+          "code": "VG13_DELAY",
+          "group": "벨브타이머",
+          "name": "GATE13_DELAY",
+          "unit": "sec",
+          "target": 0,
+          "ucl": 1,
+          "lcl": -1,
+          "enabled": true
+        },
+        {
+          "code": "VG13_OPEN",
+          "group": "벨브타이머",
+          "name": "GATE13_OPEN",
+          "unit": "sec",
+          "target": 0,
+          "ucl": 1,
+          "lcl": -1,
+          "enabled": true,
+          "vgType": "A"
+        },
+        {
+          "code": "VG14_DELAY",
+          "group": "벨브타이머",
+          "name": "GATE14_DELAY",
+          "unit": "sec",
+          "target": 0,
+          "ucl": 1,
+          "lcl": -1,
+          "enabled": true
+        },
+        {
+          "code": "VG14_OPEN",
+          "group": "벨브타이머",
+          "name": "GATE14_OPEN",
+          "unit": "sec",
+          "target": 0,
+          "ucl": 1,
+          "lcl": -1,
+          "enabled": true,
+          "vgType": "A"
+        },
+        {
+          "code": "VG15_DELAY",
+          "group": "벨브타이머",
+          "name": "GATE15_DELAY",
+          "unit": "sec",
+          "target": 0,
+          "ucl": 1,
+          "lcl": -1,
+          "enabled": true
+        },
+        {
+          "code": "VG15_OPEN",
+          "group": "벨브타이머",
+          "name": "GATE15_OPEN",
+          "unit": "sec",
+          "target": 0,
+          "ucl": 1,
+          "lcl": -1,
+          "enabled": true,
+          "vgType": "A"
+        },
+        {
+          "code": "VG16_DELAY",
+          "group": "벨브타이머",
+          "name": "GATE16_DELAY",
+          "unit": "sec",
+          "target": 0,
+          "ucl": 1,
+          "lcl": -1,
+          "enabled": true
+        },
+        {
+          "code": "VG16_OPEN",
+          "group": "벨브타이머",
+          "name": "GATE16_OPEN",
+          "unit": "sec",
+          "target": 0,
+          "ucl": 1,
+          "lcl": -1,
+          "enabled": true,
+          "vgType": "A"
+        },
+        {
+          "code": "MT_FIX",
+          "group": "금형온도1",
+          "name": "고정측",
+          "unit": "℃",
+          "target": 40,
+          "ucl": 45,
+          "lcl": 35,
+          "enabled": true
+        },
+        {
+          "code": "MT_MOV",
+          "group": "금형온도1",
+          "name": "이동측",
+          "unit": "℃",
+          "target": 30,
+          "ucl": 35,
+          "lcl": 25,
+          "enabled": true
+        },
+        {
+          "code": "MT2_FIX",
+          "group": "금형온도2",
+          "name": "고정측",
+          "unit": "℃",
+          "target": 40,
+          "ucl": 45,
+          "lcl": 35,
+          "enabled": true
+        },
+        {
+          "code": "MT2_MOV",
+          "group": "금형온도2",
+          "name": "이동측",
+          "unit": "℃",
+          "target": 30,
+          "ucl": 35,
+          "lcl": 25,
+          "enabled": true
+        },
+        {
+          "code": "CH_FIX",
+          "group": "칠러온도1",
+          "name": "고정측",
+          "unit": "℃",
+          "target": 25,
+          "ucl": 30,
+          "lcl": 20,
+          "enabled": true
+        },
+        {
+          "code": "CH_MOV",
+          "group": "칠러온도1",
+          "name": "이동측",
+          "unit": "℃",
+          "target": 20,
+          "ucl": 25,
+          "lcl": 15,
+          "enabled": true
+        },
+        {
+          "code": "CH2_FIX",
+          "group": "칠러온도2",
+          "name": "고정측",
+          "unit": "℃",
+          "target": 25,
+          "ucl": 30,
+          "lcl": 20,
+          "enabled": true
+        },
+        {
+          "code": "CH2_MOV",
+          "group": "칠러온도2",
+          "name": "이동측",
+          "unit": "℃",
+          "target": 20,
+          "ucl": 25,
+          "lcl": 15,
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "id": "P-003",
+      "차종": "GARNISH",
+      "품명": "BRKT_수출",
+      "defaults": {
+        "호기": "5호기",
+        "TON": 850,
+        "이름": "장재후",
+        "품번": "GR-BRK-EX-001",
+        "모델명": "GARNISH_수출_BRKT",
+        "원재료명": "PP-T20",
+        "GRADE": "M740",
+        "색상": "BLACK",
+        "CAVITY": 4
+      },
+      "items": [
+        {
+          "code": "IJ_V1",
+          "group": "사출속도",
+          "name": "1단",
+          "unit": "mm/s",
+          "target": 10,
+          "ucl": 13,
+          "lcl": 7,
+          "enabled": true
+        },
+        {
+          "code": "IJ_V2",
+          "group": "사출속도",
+          "name": "2단",
+          "unit": "mm/s",
+          "target": 20,
+          "ucl": 25,
+          "lcl": 15,
+          "enabled": true
+        },
+        {
+          "code": "IJ_V3",
+          "group": "사출속도",
+          "name": "3단",
+          "unit": "mm/s",
+          "target": 50,
+          "ucl": 60,
+          "lcl": 40,
+          "enabled": true
+        },
+        {
+          "code": "IJ_V4",
+          "group": "사출속도",
+          "name": "4단",
+          "unit": "mm/s",
+          "target": 15,
+          "ucl": 20,
+          "lcl": 10,
+          "enabled": true
+        },
+        {
+          "code": "IJ_V5",
+          "group": "사출속도",
+          "name": "5단",
+          "unit": "mm/s",
+          "target": 10,
+          "ucl": 15,
+          "lcl": 5,
+          "enabled": true
+        },
+        {
+          "code": "IJ_V6",
+          "group": "사출속도",
+          "name": "6단",
+          "unit": "mm/s",
+          "target": 10,
+          "ucl": 15,
+          "lcl": 5,
+          "enabled": true
+        },
+        {
+          "code": "IJ_P1",
+          "group": "사출압력",
+          "name": "1단",
+          "unit": "RKg",
+          "target": 210,
+          "ucl": 225,
+          "lcl": 195,
+          "enabled": true
+        },
+        {
+          "code": "IJ_P2",
+          "group": "사출압력",
+          "name": "2단",
+          "unit": "RKg",
+          "target": 195,
+          "ucl": 210,
+          "lcl": 180,
+          "enabled": true
+        },
+        {
+          "code": "IJ_P3",
+          "group": "사출압력",
+          "name": "3단",
+          "unit": "RKg",
+          "target": 195,
+          "ucl": 210,
+          "lcl": 180,
+          "enabled": true
+        },
+        {
+          "code": "IJ_P4",
+          "group": "사출압력",
+          "name": "4단",
+          "unit": "RKg",
+          "target": 195,
+          "ucl": 210,
+          "lcl": 180,
+          "enabled": true
+        },
+        {
+          "code": "IJ_P5",
+          "group": "사출압력",
+          "name": "5단",
+          "unit": "RKg",
+          "target": 195,
+          "ucl": 210,
+          "lcl": 180,
+          "enabled": true
+        },
+        {
+          "code": "IJ_P6",
+          "group": "사출압력",
+          "name": "6단",
+          "unit": "RKg",
+          "target": 195,
+          "ucl": 210,
+          "lcl": 180,
+          "enabled": true
+        },
+        {
+          "code": "IJ_S1",
+          "group": "사출위치",
+          "name": "1단",
+          "unit": "mm",
+          "target": 14,
+          "ucl": 17,
+          "lcl": 11,
+          "enabled": true
+        },
+        {
+          "code": "IJ_S2",
+          "group": "사출위치",
+          "name": "2단",
+          "unit": "mm",
+          "target": 80,
+          "ucl": 85,
+          "lcl": 75,
+          "enabled": true
+        },
+        {
+          "code": "IJ_S3",
+          "group": "사출위치",
+          "name": "3단",
+          "unit": "mm",
+          "target": 130,
+          "ucl": 135,
+          "lcl": 125,
+          "enabled": true
+        },
+        {
+          "code": "IJ_S4",
+          "group": "사출위치",
+          "name": "4단",
+          "unit": "mm",
+          "target": 162,
+          "ucl": 167,
+          "lcl": 157,
+          "enabled": true
+        },
+        {
+          "code": "IJ_S5",
+          "group": "사출위치",
+          "name": "5단",
+          "unit": "mm",
+          "target": 14,
+          "ucl": 17,
+          "lcl": 11,
+          "enabled": true
+        },
+        {
+          "code": "IJ_S6",
+          "group": "사출위치",
+          "name": "6단",
+          "unit": "mm",
+          "target": 14,
+          "ucl": 17,
+          "lcl": 11,
+          "enabled": true
+        },
+        {
+          "code": "IJ_FILL",
+          "group": "사이클 타임(CT)",
+          "name": "충진시간",
+          "unit": "sec",
+          "target": 3,
+          "ucl": 3.5,
+          "lcl": 2.5,
+          "enabled": true
+        },
+        {
+          "code": "IJ_TIME",
+          "group": "사이클 타임(CT)",
+          "name": "사출시간",
+          "unit": "sec",
+          "target": 15,
+          "ucl": 16,
+          "lcl": 14,
+          "enabled": true
+        },
+        {
+          "code": "IJ_CUSHION",
+          "group": "사이클 타임(CT)",
+          "name": "쿠션잔량",
+          "unit": "mm",
+          "target": 12,
+          "ucl": 15,
+          "lcl": 9,
+          "enabled": true
+        },
+        {
+          "code": "CYC_COOL",
+          "group": "사이클 타임(CT)",
+          "name": "냉각시간",
+          "unit": "sec",
+          "target": 57,
+          "ucl": 62,
+          "lcl": 52,
+          "enabled": true
+        },
+        {
+          "code": "HP_T_PH1",
+          "group": "사이클 타임(CT)",
+          "name": "보압시간 PH1",
+          "unit": "sec",
+          "target": 0,
+          "ucl": 1,
+          "lcl": -1,
+          "enabled": true
+        },
+        {
+          "code": "HP_T_PH2",
+          "group": "사이클 타임(CT)",
+          "name": "보압시간 PH2",
+          "unit": "sec",
+          "target": 9,
+          "ucl": 10,
+          "lcl": 8,
+          "enabled": true
+        },
+        {
+          "code": "HP_T_PH3",
+          "group": "사이클 타임(CT)",
+          "name": "보압시간 PH3",
+          "unit": "sec",
+          "target": 0,
+          "ucl": 1,
+          "lcl": -1,
+          "enabled": true
+        },
+        {
+          "code": "HP_T_PH4",
+          "group": "사이클 타임(CT)",
+          "name": "보압시간 PH4",
+          "unit": "sec",
+          "target": 0,
+          "ucl": 1,
+          "lcl": -1,
+          "enabled": true
+        },
+        {
+          "code": "CYC_TOTAL",
+          "group": "사이클 타임(CT)",
+          "name": "CYCLE TIME",
+          "unit": "sec",
+          "target": 95,
+          "ucl": 100,
+          "lcl": 90,
+          "enabled": true
+        },
+        {
+          "code": "HP_P1",
+          "group": "보압압력",
+          "name": "1단",
+          "unit": "bar",
+          "target": 110,
+          "ucl": 120,
+          "lcl": 100,
+          "enabled": true
+        },
+        {
+          "code": "HP_P2",
+          "group": "보압압력",
+          "name": "2단",
+          "unit": "bar",
+          "target": 110,
+          "ucl": 120,
+          "lcl": 100,
+          "enabled": true
+        },
+        {
+          "code": "HP_P3",
+          "group": "보압압력",
+          "name": "3단",
+          "unit": "bar",
+          "target": 110,
+          "ucl": 120,
+          "lcl": 100,
+          "enabled": true
+        },
+        {
+          "code": "HP_P4",
+          "group": "보압압력",
+          "name": "4단",
+          "unit": "bar",
+          "target": 110,
+          "ucl": 120,
+          "lcl": 100,
+          "enabled": true
+        },
+        {
+          "code": "HP_P5",
+          "group": "보압압력",
+          "name": "5단",
+          "unit": "bar",
+          "target": 110,
+          "ucl": 120,
+          "lcl": 100,
+          "enabled": true
+        },
+        {
+          "code": "BP_1",
+          "group": "배압",
+          "name": "1단",
+          "unit": "bar",
+          "target": 20,
+          "ucl": 25,
+          "lcl": 15,
+          "enabled": true
+        },
+        {
+          "code": "BP_2",
+          "group": "배압",
+          "name": "2단",
+          "unit": "bar",
+          "target": 20,
+          "ucl": 25,
+          "lcl": 15,
+          "enabled": true
+        },
+        {
+          "code": "BP_3",
+          "group": "배압",
+          "name": "3단",
+          "unit": "bar",
+          "target": 20,
+          "ucl": 25,
+          "lcl": 15,
+          "enabled": true
+        },
+        {
+          "code": "PL_V1",
+          "group": "계량속도",
+          "name": "1단",
+          "unit": "%",
+          "target": 20,
+          "ucl": 25,
+          "lcl": 15,
+          "enabled": true
+        },
+        {
+          "code": "PL_V2",
+          "group": "계량속도",
+          "name": "2단",
+          "unit": "%",
+          "target": 20,
+          "ucl": 25,
+          "lcl": 15,
+          "enabled": true
+        },
+        {
+          "code": "PL_V3",
+          "group": "계량속도",
+          "name": "3단",
+          "unit": "%",
+          "target": 20,
+          "ucl": 25,
+          "lcl": 15,
+          "enabled": true
+        },
+        {
+          "code": "PL_DONE",
+          "group": "계량완료",
+          "name": "계량완료거리",
+          "unit": "mm",
+          "target": 150,
+          "ucl": 160,
+          "lcl": 140,
+          "enabled": true
+        },
+        {
+          "code": "CY_NOZZLE",
+          "group": "실린더온도",
+          "name": "노즐",
+          "unit": "℃",
+          "target": 245,
+          "ucl": 255,
+          "lcl": 235,
+          "enabled": true
+        },
+        {
+          "code": "CY_H1",
+          "group": "실린더온도",
+          "name": "H1",
+          "unit": "℃",
+          "target": 250,
+          "ucl": 260,
+          "lcl": 240,
+          "enabled": true
+        },
+        {
+          "code": "CY_H2",
+          "group": "실린더온도",
+          "name": "H2",
+          "unit": "℃",
+          "target": 250,
+          "ucl": 260,
+          "lcl": 240,
+          "enabled": true
+        },
+        {
+          "code": "CY_H3",
+          "group": "실린더온도",
+          "name": "H3",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "CY_H4",
+          "group": "실린더온도",
+          "name": "H4",
+          "unit": "℃",
+          "target": 230,
+          "ucl": 240,
+          "lcl": 220,
+          "enabled": true
+        },
+        {
+          "code": "CY_H5",
+          "group": "실린더온도",
+          "name": "H5",
+          "unit": "℃",
+          "target": 220,
+          "ucl": 230,
+          "lcl": 210,
+          "enabled": true
+        },
+        {
+          "code": "CY_H6",
+          "group": "실린더온도",
+          "name": "H6",
+          "unit": "℃",
+          "target": 200,
+          "ucl": 210,
+          "lcl": 190,
+          "enabled": true
+        },
+        {
+          "code": "HR_TYPE",
+          "group": "핫러너",
+          "name": "열전대타입",
+          "unit": "-",
+          "textType": true,
+          "options": [
+            "K",
+            "J"
+          ],
+          "target": "K",
+          "ucl": null,
+          "lcl": null,
+          "enabled": true
+        },
+        {
+          "code": "HR_H1",
+          "group": "핫러너",
+          "name": "H1",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H2",
+          "group": "핫러너",
+          "name": "H2",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H3",
+          "group": "핫러너",
+          "name": "H3",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H4",
+          "group": "핫러너",
+          "name": "H4",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H5",
+          "group": "핫러너",
+          "name": "H5",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H6",
+          "group": "핫러너",
+          "name": "H6",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H7",
+          "group": "핫러너",
+          "name": "H7",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H8",
+          "group": "핫러너",
+          "name": "H8",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H9",
+          "group": "핫러너",
+          "name": "H9",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H10",
+          "group": "핫러너",
+          "name": "H10",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H11",
+          "group": "핫러너",
+          "name": "H11",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H12",
+          "group": "핫러너",
+          "name": "H12",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H13",
+          "group": "핫러너",
+          "name": "H13",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H14",
+          "group": "핫러너",
+          "name": "H14",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H15",
+          "group": "핫러너",
+          "name": "H15",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H16",
+          "group": "핫러너",
+          "name": "H16",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H17",
+          "group": "핫러너",
+          "name": "H17",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H18",
+          "group": "핫러너",
+          "name": "H18",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H19",
+          "group": "핫러너",
+          "name": "H19",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H20",
+          "group": "핫러너",
+          "name": "H20",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H21",
+          "group": "핫러너",
+          "name": "H21",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H22",
+          "group": "핫러너",
+          "name": "H22",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H23",
+          "group": "핫러너",
+          "name": "H23",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H24",
+          "group": "핫러너",
+          "name": "H24",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H25",
+          "group": "핫러너",
+          "name": "H25",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H26",
+          "group": "핫러너",
+          "name": "H26",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H27",
+          "group": "핫러너",
+          "name": "H27",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H28",
+          "group": "핫러너",
+          "name": "H28",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H29",
+          "group": "핫러너",
+          "name": "H29",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H30",
+          "group": "핫러너",
+          "name": "H30",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H31",
+          "group": "핫러너",
+          "name": "H31",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H32",
+          "group": "핫러너",
+          "name": "H32",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H33",
+          "group": "핫러너",
+          "name": "H33",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H34",
+          "group": "핫러너",
+          "name": "H34",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H35",
+          "group": "핫러너",
+          "name": "H35",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H36",
+          "group": "핫러너",
+          "name": "H36",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H37",
+          "group": "핫러너",
+          "name": "H37",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H38",
+          "group": "핫러너",
+          "name": "H38",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H39",
+          "group": "핫러너",
+          "name": "H39",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H40",
+          "group": "핫러너",
+          "name": "H40",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H41",
+          "group": "핫러너",
+          "name": "H41",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H42",
+          "group": "핫러너",
+          "name": "H42",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H43",
+          "group": "핫러너",
+          "name": "H43",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H44",
+          "group": "핫러너",
+          "name": "H44",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H45",
+          "group": "핫러너",
+          "name": "H45",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H46",
+          "group": "핫러너",
+          "name": "H46",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H47",
+          "group": "핫러너",
+          "name": "H47",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H48",
+          "group": "핫러너",
+          "name": "H48",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H49",
+          "group": "핫러너",
+          "name": "H49",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H50",
+          "group": "핫러너",
+          "name": "H50",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H51",
+          "group": "핫러너",
+          "name": "H51",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H52",
+          "group": "핫러너",
+          "name": "H52",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H53",
+          "group": "핫러너",
+          "name": "H53",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H54",
+          "group": "핫러너",
+          "name": "H54",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H55",
+          "group": "핫러너",
+          "name": "H55",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H56",
+          "group": "핫러너",
+          "name": "H56",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H57",
+          "group": "핫러너",
+          "name": "H57",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H58",
+          "group": "핫러너",
+          "name": "H58",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H59",
+          "group": "핫러너",
+          "name": "H59",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H60",
+          "group": "핫러너",
+          "name": "H60",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H61",
+          "group": "핫러너",
+          "name": "H61",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H62",
+          "group": "핫러너",
+          "name": "H62",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H63",
+          "group": "핫러너",
+          "name": "H63",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H64",
+          "group": "핫러너",
+          "name": "H64",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H65",
+          "group": "핫러너",
+          "name": "H65",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H66",
+          "group": "핫러너",
+          "name": "H66",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H67",
+          "group": "핫러너",
+          "name": "H67",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H68",
+          "group": "핫러너",
+          "name": "H68",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H69",
+          "group": "핫러너",
+          "name": "H69",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H70",
+          "group": "핫러너",
+          "name": "H70",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H71",
+          "group": "핫러너",
+          "name": "H71",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H72",
+          "group": "핫러너",
+          "name": "H72",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H73",
+          "group": "핫러너",
+          "name": "H73",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H74",
+          "group": "핫러너",
+          "name": "H74",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H75",
+          "group": "핫러너",
+          "name": "H75",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H76",
+          "group": "핫러너",
+          "name": "H76",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H77",
+          "group": "핫러너",
+          "name": "H77",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H78",
+          "group": "핫러너",
+          "name": "H78",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "VG1_DELAY",
+          "group": "벨브타이머",
+          "name": "GATE1_DELAY",
+          "unit": "sec",
+          "target": 0,
+          "ucl": 1,
+          "lcl": -1,
+          "enabled": true
+        },
+        {
+          "code": "VG1_OPEN",
+          "group": "벨브타이머",
+          "name": "GATE1_OPEN",
+          "unit": "sec",
+          "target": 2,
+          "ucl": 3,
+          "lcl": 1,
+          "enabled": true,
+          "vgType": "A"
+        },
+        {
+          "code": "VG2_DELAY",
+          "group": "벨브타이머",
+          "name": "GATE2_DELAY",
+          "unit": "sec",
+          "target": 2.7,
+          "ucl": 3.7,
+          "lcl": 1.7,
+          "enabled": true
+        },
+        {
+          "code": "VG2_OPEN",
+          "group": "벨브타이머",
+          "name": "GATE2_OPEN",
+          "unit": "sec",
+          "target": 2,
+          "ucl": 3,
+          "lcl": 1,
+          "enabled": true,
+          "vgType": "A"
+        },
+        {
+          "code": "VG3_DELAY",
+          "group": "벨브타이머",
+          "name": "GATE3_DELAY",
+          "unit": "sec",
+          "target": 0,
+          "ucl": 1,
+          "lcl": -1,
+          "enabled": true
+        },
+        {
+          "code": "VG3_OPEN",
+          "group": "벨브타이머",
+          "name": "GATE3_OPEN",
+          "unit": "sec",
+          "target": 0,
+          "ucl": 1,
+          "lcl": -1,
+          "enabled": true,
+          "vgType": "A"
+        },
+        {
+          "code": "VG4_DELAY",
+          "group": "벨브타이머",
+          "name": "GATE4_DELAY",
+          "unit": "sec",
+          "target": 2.5,
+          "ucl": 3.5,
+          "lcl": 1.5,
+          "enabled": true
+        },
+        {
+          "code": "VG4_OPEN",
+          "group": "벨브타이머",
+          "name": "GATE4_OPEN",
+          "unit": "sec",
+          "target": 2,
+          "ucl": 3,
+          "lcl": 1,
+          "enabled": true,
+          "vgType": "A"
+        },
+        {
+          "code": "VG5_DELAY",
+          "group": "벨브타이머",
+          "name": "GATE5_DELAY",
+          "unit": "sec",
+          "target": 0,
+          "ucl": 1,
+          "lcl": -1,
+          "enabled": true
+        },
+        {
+          "code": "VG5_OPEN",
+          "group": "벨브타이머",
+          "name": "GATE5_OPEN",
+          "unit": "sec",
+          "target": 0,
+          "ucl": 1,
+          "lcl": -1,
+          "enabled": true,
+          "vgType": "A"
+        },
+        {
+          "code": "VG6_DELAY",
+          "group": "벨브타이머",
+          "name": "GATE6_DELAY",
+          "unit": "sec",
+          "target": 0,
+          "ucl": 1,
+          "lcl": -1,
+          "enabled": true
+        },
+        {
+          "code": "VG6_OPEN",
+          "group": "벨브타이머",
+          "name": "GATE6_OPEN",
+          "unit": "sec",
+          "target": 0,
+          "ucl": 1,
+          "lcl": -1,
+          "enabled": true,
+          "vgType": "A"
+        },
+        {
+          "code": "VG7_DELAY",
+          "group": "벨브타이머",
+          "name": "GATE7_DELAY",
+          "unit": "sec",
+          "target": 0,
+          "ucl": 1,
+          "lcl": -1,
+          "enabled": true
+        },
+        {
+          "code": "VG7_OPEN",
+          "group": "벨브타이머",
+          "name": "GATE7_OPEN",
+          "unit": "sec",
+          "target": 0,
+          "ucl": 1,
+          "lcl": -1,
+          "enabled": true,
+          "vgType": "A"
+        },
+        {
+          "code": "VG8_DELAY",
+          "group": "벨브타이머",
+          "name": "GATE8_DELAY",
+          "unit": "sec",
+          "target": 0,
+          "ucl": 1,
+          "lcl": -1,
+          "enabled": true
+        },
+        {
+          "code": "VG8_OPEN",
+          "group": "벨브타이머",
+          "name": "GATE8_OPEN",
+          "unit": "sec",
+          "target": 0,
+          "ucl": 1,
+          "lcl": -1,
+          "enabled": true,
+          "vgType": "A"
+        },
+        {
+          "code": "VG9_DELAY",
+          "group": "벨브타이머",
+          "name": "GATE9_DELAY",
+          "unit": "sec",
+          "target": 0,
+          "ucl": 1,
+          "lcl": -1,
+          "enabled": true
+        },
+        {
+          "code": "VG9_OPEN",
+          "group": "벨브타이머",
+          "name": "GATE9_OPEN",
+          "unit": "sec",
+          "target": 0,
+          "ucl": 1,
+          "lcl": -1,
+          "enabled": true,
+          "vgType": "A"
+        },
+        {
+          "code": "VG10_DELAY",
+          "group": "벨브타이머",
+          "name": "GATE10_DELAY",
+          "unit": "sec",
+          "target": 0,
+          "ucl": 1,
+          "lcl": -1,
+          "enabled": true
+        },
+        {
+          "code": "VG10_OPEN",
+          "group": "벨브타이머",
+          "name": "GATE10_OPEN",
+          "unit": "sec",
+          "target": 0,
+          "ucl": 1,
+          "lcl": -1,
+          "enabled": true,
+          "vgType": "A"
+        },
+        {
+          "code": "VG11_DELAY",
+          "group": "벨브타이머",
+          "name": "GATE11_DELAY",
+          "unit": "sec",
+          "target": 0,
+          "ucl": 1,
+          "lcl": -1,
+          "enabled": true
+        },
+        {
+          "code": "VG11_OPEN",
+          "group": "벨브타이머",
+          "name": "GATE11_OPEN",
+          "unit": "sec",
+          "target": 0,
+          "ucl": 1,
+          "lcl": -1,
+          "enabled": true,
+          "vgType": "A"
+        },
+        {
+          "code": "VG12_DELAY",
+          "group": "벨브타이머",
+          "name": "GATE12_DELAY",
+          "unit": "sec",
+          "target": 0,
+          "ucl": 1,
+          "lcl": -1,
+          "enabled": true
+        },
+        {
+          "code": "VG12_OPEN",
+          "group": "벨브타이머",
+          "name": "GATE12_OPEN",
+          "unit": "sec",
+          "target": 0,
+          "ucl": 1,
+          "lcl": -1,
+          "enabled": true,
+          "vgType": "A"
+        },
+        {
+          "code": "VG13_DELAY",
+          "group": "벨브타이머",
+          "name": "GATE13_DELAY",
+          "unit": "sec",
+          "target": 0,
+          "ucl": 1,
+          "lcl": -1,
+          "enabled": true
+        },
+        {
+          "code": "VG13_OPEN",
+          "group": "벨브타이머",
+          "name": "GATE13_OPEN",
+          "unit": "sec",
+          "target": 0,
+          "ucl": 1,
+          "lcl": -1,
+          "enabled": true,
+          "vgType": "A"
+        },
+        {
+          "code": "VG14_DELAY",
+          "group": "벨브타이머",
+          "name": "GATE14_DELAY",
+          "unit": "sec",
+          "target": 0,
+          "ucl": 1,
+          "lcl": -1,
+          "enabled": true
+        },
+        {
+          "code": "VG14_OPEN",
+          "group": "벨브타이머",
+          "name": "GATE14_OPEN",
+          "unit": "sec",
+          "target": 0,
+          "ucl": 1,
+          "lcl": -1,
+          "enabled": true,
+          "vgType": "A"
+        },
+        {
+          "code": "VG15_DELAY",
+          "group": "벨브타이머",
+          "name": "GATE15_DELAY",
+          "unit": "sec",
+          "target": 0,
+          "ucl": 1,
+          "lcl": -1,
+          "enabled": true
+        },
+        {
+          "code": "VG15_OPEN",
+          "group": "벨브타이머",
+          "name": "GATE15_OPEN",
+          "unit": "sec",
+          "target": 0,
+          "ucl": 1,
+          "lcl": -1,
+          "enabled": true,
+          "vgType": "A"
+        },
+        {
+          "code": "VG16_DELAY",
+          "group": "벨브타이머",
+          "name": "GATE16_DELAY",
+          "unit": "sec",
+          "target": 0,
+          "ucl": 1,
+          "lcl": -1,
+          "enabled": true
+        },
+        {
+          "code": "VG16_OPEN",
+          "group": "벨브타이머",
+          "name": "GATE16_OPEN",
+          "unit": "sec",
+          "target": 0,
+          "ucl": 1,
+          "lcl": -1,
+          "enabled": true,
+          "vgType": "A"
+        },
+        {
+          "code": "MT_FIX",
+          "group": "금형온도1",
+          "name": "고정측",
+          "unit": "℃",
+          "target": 45,
+          "ucl": 55,
+          "lcl": 35,
+          "enabled": true
+        },
+        {
+          "code": "MT_MOV",
+          "group": "금형온도1",
+          "name": "이동측",
+          "unit": "℃",
+          "target": 30,
+          "ucl": 35,
+          "lcl": 25,
+          "enabled": true
+        },
+        {
+          "code": "MT2_FIX",
+          "group": "금형온도2",
+          "name": "고정측",
+          "unit": "℃",
+          "target": 40,
+          "ucl": 45,
+          "lcl": 35,
+          "enabled": true
+        },
+        {
+          "code": "MT2_MOV",
+          "group": "금형온도2",
+          "name": "이동측",
+          "unit": "℃",
+          "target": 30,
+          "ucl": 35,
+          "lcl": 25,
+          "enabled": true
+        },
+        {
+          "code": "CH_FIX",
+          "group": "칠러온도1",
+          "name": "고정측",
+          "unit": "℃",
+          "target": 25,
+          "ucl": 30,
+          "lcl": 20,
+          "enabled": true
+        },
+        {
+          "code": "CH_MOV",
+          "group": "칠러온도1",
+          "name": "이동측",
+          "unit": "℃",
+          "target": 20,
+          "ucl": 25,
+          "lcl": 15,
+          "enabled": true
+        },
+        {
+          "code": "CH2_FIX",
+          "group": "칠러온도2",
+          "name": "고정측",
+          "unit": "℃",
+          "target": 25,
+          "ucl": 30,
+          "lcl": 20,
+          "enabled": true
+        },
+        {
+          "code": "CH2_MOV",
+          "group": "칠러온도2",
+          "name": "이동측",
+          "unit": "℃",
+          "target": 20,
+          "ucl": 25,
+          "lcl": 15,
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "id": "P-004",
+      "차종": "PILLAR",
+      "품명": "UPR CVR_수출",
+      "defaults": {
+        "호기": "5호기",
+        "TON": 850,
+        "이름": "김철수",
+        "품번": "PL-UPR-EX-001",
+        "모델명": "PILLAR_수출",
+        "원재료명": "ABS-XR404",
+        "GRADE": "HU600",
+        "색상": "GRAY",
+        "CAVITY": 2
+      },
+      "items": [
+        {
+          "code": "IJ_V1",
+          "group": "사출속도",
+          "name": "1단",
+          "unit": "mm/s",
+          "target": 12,
+          "ucl": 18,
+          "lcl": 8,
+          "enabled": true
+        },
+        {
+          "code": "IJ_V2",
+          "group": "사출속도",
+          "name": "2단",
+          "unit": "mm/s",
+          "target": 20,
+          "ucl": 25,
+          "lcl": 15,
+          "enabled": true
+        },
+        {
+          "code": "IJ_V3",
+          "group": "사출속도",
+          "name": "3단",
+          "unit": "mm/s",
+          "target": 50,
+          "ucl": 60,
+          "lcl": 40,
+          "enabled": true
+        },
+        {
+          "code": "IJ_V4",
+          "group": "사출속도",
+          "name": "4단",
+          "unit": "mm/s",
+          "target": 15,
+          "ucl": 20,
+          "lcl": 10,
+          "enabled": true
+        },
+        {
+          "code": "IJ_V5",
+          "group": "사출속도",
+          "name": "5단",
+          "unit": "mm/s",
+          "target": 10,
+          "ucl": 15,
+          "lcl": 5,
+          "enabled": true
+        },
+        {
+          "code": "IJ_V6",
+          "group": "사출속도",
+          "name": "6단",
+          "unit": "mm/s",
+          "target": 10,
+          "ucl": 15,
+          "lcl": 5,
+          "enabled": true
+        },
+        {
+          "code": "IJ_P1",
+          "group": "사출압력",
+          "name": "1단",
+          "unit": "RKg",
+          "target": 195,
+          "ucl": 210,
+          "lcl": 180,
+          "enabled": true
+        },
+        {
+          "code": "IJ_P2",
+          "group": "사출압력",
+          "name": "2단",
+          "unit": "RKg",
+          "target": 195,
+          "ucl": 210,
+          "lcl": 180,
+          "enabled": true
+        },
+        {
+          "code": "IJ_P3",
+          "group": "사출압력",
+          "name": "3단",
+          "unit": "RKg",
+          "target": 195,
+          "ucl": 210,
+          "lcl": 180,
+          "enabled": true
+        },
+        {
+          "code": "IJ_P4",
+          "group": "사출압력",
+          "name": "4단",
+          "unit": "RKg",
+          "target": 195,
+          "ucl": 210,
+          "lcl": 180,
+          "enabled": true
+        },
+        {
+          "code": "IJ_P5",
+          "group": "사출압력",
+          "name": "5단",
+          "unit": "RKg",
+          "target": 195,
+          "ucl": 210,
+          "lcl": 180,
+          "enabled": true
+        },
+        {
+          "code": "IJ_P6",
+          "group": "사출압력",
+          "name": "6단",
+          "unit": "RKg",
+          "target": 195,
+          "ucl": 210,
+          "lcl": 180,
+          "enabled": true
+        },
+        {
+          "code": "IJ_S1",
+          "group": "사출위치",
+          "name": "1단",
+          "unit": "mm",
+          "target": 14,
+          "ucl": 17,
+          "lcl": 11,
+          "enabled": true
+        },
+        {
+          "code": "IJ_S2",
+          "group": "사출위치",
+          "name": "2단",
+          "unit": "mm",
+          "target": 80,
+          "ucl": 85,
+          "lcl": 75,
+          "enabled": true
+        },
+        {
+          "code": "IJ_S3",
+          "group": "사출위치",
+          "name": "3단",
+          "unit": "mm",
+          "target": 130,
+          "ucl": 135,
+          "lcl": 125,
+          "enabled": true
+        },
+        {
+          "code": "IJ_S4",
+          "group": "사출위치",
+          "name": "4단",
+          "unit": "mm",
+          "target": 162,
+          "ucl": 167,
+          "lcl": 157,
+          "enabled": true
+        },
+        {
+          "code": "IJ_S5",
+          "group": "사출위치",
+          "name": "5단",
+          "unit": "mm",
+          "target": 14,
+          "ucl": 17,
+          "lcl": 11,
+          "enabled": true
+        },
+        {
+          "code": "IJ_S6",
+          "group": "사출위치",
+          "name": "6단",
+          "unit": "mm",
+          "target": 14,
+          "ucl": 17,
+          "lcl": 11,
+          "enabled": true
+        },
+        {
+          "code": "IJ_FILL",
+          "group": "사이클 타임(CT)",
+          "name": "충진시간",
+          "unit": "sec",
+          "target": 3,
+          "ucl": 3.5,
+          "lcl": 2.5,
+          "enabled": true
+        },
+        {
+          "code": "IJ_TIME",
+          "group": "사이클 타임(CT)",
+          "name": "사출시간",
+          "unit": "sec",
+          "target": 15,
+          "ucl": 16,
+          "lcl": 14,
+          "enabled": true
+        },
+        {
+          "code": "IJ_CUSHION",
+          "group": "사이클 타임(CT)",
+          "name": "쿠션잔량",
+          "unit": "mm",
+          "target": 12,
+          "ucl": 15,
+          "lcl": 9,
+          "enabled": true
+        },
+        {
+          "code": "CYC_COOL",
+          "group": "사이클 타임(CT)",
+          "name": "냉각시간",
+          "unit": "sec",
+          "target": 57,
+          "ucl": 62,
+          "lcl": 52,
+          "enabled": true
+        },
+        {
+          "code": "HP_T_PH1",
+          "group": "사이클 타임(CT)",
+          "name": "보압시간 PH1",
+          "unit": "sec",
+          "target": 0,
+          "ucl": 1,
+          "lcl": -1,
+          "enabled": true
+        },
+        {
+          "code": "HP_T_PH2",
+          "group": "사이클 타임(CT)",
+          "name": "보압시간 PH2",
+          "unit": "sec",
+          "target": 9,
+          "ucl": 10,
+          "lcl": 8,
+          "enabled": true
+        },
+        {
+          "code": "HP_T_PH3",
+          "group": "사이클 타임(CT)",
+          "name": "보압시간 PH3",
+          "unit": "sec",
+          "target": 0,
+          "ucl": 1,
+          "lcl": -1,
+          "enabled": true
+        },
+        {
+          "code": "HP_T_PH4",
+          "group": "사이클 타임(CT)",
+          "name": "보압시간 PH4",
+          "unit": "sec",
+          "target": 0,
+          "ucl": 1,
+          "lcl": -1,
+          "enabled": true
+        },
+        {
+          "code": "CYC_TOTAL",
+          "group": "사이클 타임(CT)",
+          "name": "CYCLE TIME",
+          "unit": "sec",
+          "target": 95,
+          "ucl": 100,
+          "lcl": 90,
+          "enabled": true
+        },
+        {
+          "code": "HP_P1",
+          "group": "보압압력",
+          "name": "1단",
+          "unit": "bar",
+          "target": 120,
+          "ucl": 130,
+          "lcl": 110,
+          "enabled": true
+        },
+        {
+          "code": "HP_P2",
+          "group": "보압압력",
+          "name": "2단",
+          "unit": "bar",
+          "target": 110,
+          "ucl": 120,
+          "lcl": 100,
+          "enabled": true
+        },
+        {
+          "code": "HP_P3",
+          "group": "보압압력",
+          "name": "3단",
+          "unit": "bar",
+          "target": 110,
+          "ucl": 120,
+          "lcl": 100,
+          "enabled": true
+        },
+        {
+          "code": "HP_P4",
+          "group": "보압압력",
+          "name": "4단",
+          "unit": "bar",
+          "target": 110,
+          "ucl": 120,
+          "lcl": 100,
+          "enabled": true
+        },
+        {
+          "code": "HP_P5",
+          "group": "보압압력",
+          "name": "5단",
+          "unit": "bar",
+          "target": 110,
+          "ucl": 120,
+          "lcl": 100,
+          "enabled": true
+        },
+        {
+          "code": "BP_1",
+          "group": "배압",
+          "name": "1단",
+          "unit": "bar",
+          "target": 20,
+          "ucl": 25,
+          "lcl": 15,
+          "enabled": true
+        },
+        {
+          "code": "BP_2",
+          "group": "배압",
+          "name": "2단",
+          "unit": "bar",
+          "target": 20,
+          "ucl": 25,
+          "lcl": 15,
+          "enabled": true
+        },
+        {
+          "code": "BP_3",
+          "group": "배압",
+          "name": "3단",
+          "unit": "bar",
+          "target": 20,
+          "ucl": 25,
+          "lcl": 15,
+          "enabled": true
+        },
+        {
+          "code": "PL_V1",
+          "group": "계량속도",
+          "name": "1단",
+          "unit": "%",
+          "target": 20,
+          "ucl": 25,
+          "lcl": 15,
+          "enabled": true
+        },
+        {
+          "code": "PL_V2",
+          "group": "계량속도",
+          "name": "2단",
+          "unit": "%",
+          "target": 20,
+          "ucl": 25,
+          "lcl": 15,
+          "enabled": true
+        },
+        {
+          "code": "PL_V3",
+          "group": "계량속도",
+          "name": "3단",
+          "unit": "%",
+          "target": 20,
+          "ucl": 25,
+          "lcl": 15,
+          "enabled": true
+        },
+        {
+          "code": "PL_DONE",
+          "group": "계량완료",
+          "name": "계량완료거리",
+          "unit": "mm",
+          "target": 150,
+          "ucl": 160,
+          "lcl": 140,
+          "enabled": true
+        },
+        {
+          "code": "CY_NOZZLE",
+          "group": "실린더온도",
+          "name": "노즐",
+          "unit": "℃",
+          "target": 230,
+          "ucl": 240,
+          "lcl": 220,
+          "enabled": true
+        },
+        {
+          "code": "CY_H1",
+          "group": "실린더온도",
+          "name": "H1",
+          "unit": "℃",
+          "target": 250,
+          "ucl": 260,
+          "lcl": 240,
+          "enabled": true
+        },
+        {
+          "code": "CY_H2",
+          "group": "실린더온도",
+          "name": "H2",
+          "unit": "℃",
+          "target": 250,
+          "ucl": 260,
+          "lcl": 240,
+          "enabled": true
+        },
+        {
+          "code": "CY_H3",
+          "group": "실린더온도",
+          "name": "H3",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "CY_H4",
+          "group": "실린더온도",
+          "name": "H4",
+          "unit": "℃",
+          "target": 230,
+          "ucl": 240,
+          "lcl": 220,
+          "enabled": true
+        },
+        {
+          "code": "CY_H5",
+          "group": "실린더온도",
+          "name": "H5",
+          "unit": "℃",
+          "target": 220,
+          "ucl": 230,
+          "lcl": 210,
+          "enabled": true
+        },
+        {
+          "code": "CY_H6",
+          "group": "실린더온도",
+          "name": "H6",
+          "unit": "℃",
+          "target": 200,
+          "ucl": 210,
+          "lcl": 190,
+          "enabled": true
+        },
+        {
+          "code": "HR_TYPE",
+          "group": "핫러너",
+          "name": "열전대타입",
+          "unit": "-",
+          "textType": true,
+          "options": [
+            "K",
+            "J"
+          ],
+          "target": "K",
+          "ucl": null,
+          "lcl": null,
+          "enabled": true
+        },
+        {
+          "code": "HR_H1",
+          "group": "핫러너",
+          "name": "H1",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H2",
+          "group": "핫러너",
+          "name": "H2",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H3",
+          "group": "핫러너",
+          "name": "H3",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H4",
+          "group": "핫러너",
+          "name": "H4",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H5",
+          "group": "핫러너",
+          "name": "H5",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H6",
+          "group": "핫러너",
+          "name": "H6",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H7",
+          "group": "핫러너",
+          "name": "H7",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H8",
+          "group": "핫러너",
+          "name": "H8",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H9",
+          "group": "핫러너",
+          "name": "H9",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H10",
+          "group": "핫러너",
+          "name": "H10",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H11",
+          "group": "핫러너",
+          "name": "H11",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H12",
+          "group": "핫러너",
+          "name": "H12",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H13",
+          "group": "핫러너",
+          "name": "H13",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H14",
+          "group": "핫러너",
+          "name": "H14",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H15",
+          "group": "핫러너",
+          "name": "H15",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H16",
+          "group": "핫러너",
+          "name": "H16",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H17",
+          "group": "핫러너",
+          "name": "H17",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H18",
+          "group": "핫러너",
+          "name": "H18",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H19",
+          "group": "핫러너",
+          "name": "H19",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H20",
+          "group": "핫러너",
+          "name": "H20",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H21",
+          "group": "핫러너",
+          "name": "H21",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H22",
+          "group": "핫러너",
+          "name": "H22",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H23",
+          "group": "핫러너",
+          "name": "H23",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H24",
+          "group": "핫러너",
+          "name": "H24",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H25",
+          "group": "핫러너",
+          "name": "H25",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H26",
+          "group": "핫러너",
+          "name": "H26",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H27",
+          "group": "핫러너",
+          "name": "H27",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H28",
+          "group": "핫러너",
+          "name": "H28",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H29",
+          "group": "핫러너",
+          "name": "H29",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H30",
+          "group": "핫러너",
+          "name": "H30",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H31",
+          "group": "핫러너",
+          "name": "H31",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H32",
+          "group": "핫러너",
+          "name": "H32",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H33",
+          "group": "핫러너",
+          "name": "H33",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H34",
+          "group": "핫러너",
+          "name": "H34",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H35",
+          "group": "핫러너",
+          "name": "H35",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H36",
+          "group": "핫러너",
+          "name": "H36",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H37",
+          "group": "핫러너",
+          "name": "H37",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H38",
+          "group": "핫러너",
+          "name": "H38",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H39",
+          "group": "핫러너",
+          "name": "H39",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H40",
+          "group": "핫러너",
+          "name": "H40",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H41",
+          "group": "핫러너",
+          "name": "H41",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H42",
+          "group": "핫러너",
+          "name": "H42",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H43",
+          "group": "핫러너",
+          "name": "H43",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H44",
+          "group": "핫러너",
+          "name": "H44",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H45",
+          "group": "핫러너",
+          "name": "H45",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H46",
+          "group": "핫러너",
+          "name": "H46",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H47",
+          "group": "핫러너",
+          "name": "H47",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H48",
+          "group": "핫러너",
+          "name": "H48",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H49",
+          "group": "핫러너",
+          "name": "H49",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H50",
+          "group": "핫러너",
+          "name": "H50",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H51",
+          "group": "핫러너",
+          "name": "H51",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H52",
+          "group": "핫러너",
+          "name": "H52",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H53",
+          "group": "핫러너",
+          "name": "H53",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H54",
+          "group": "핫러너",
+          "name": "H54",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H55",
+          "group": "핫러너",
+          "name": "H55",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H56",
+          "group": "핫러너",
+          "name": "H56",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H57",
+          "group": "핫러너",
+          "name": "H57",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H58",
+          "group": "핫러너",
+          "name": "H58",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H59",
+          "group": "핫러너",
+          "name": "H59",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H60",
+          "group": "핫러너",
+          "name": "H60",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H61",
+          "group": "핫러너",
+          "name": "H61",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H62",
+          "group": "핫러너",
+          "name": "H62",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H63",
+          "group": "핫러너",
+          "name": "H63",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H64",
+          "group": "핫러너",
+          "name": "H64",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H65",
+          "group": "핫러너",
+          "name": "H65",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H66",
+          "group": "핫러너",
+          "name": "H66",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H67",
+          "group": "핫러너",
+          "name": "H67",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H68",
+          "group": "핫러너",
+          "name": "H68",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H69",
+          "group": "핫러너",
+          "name": "H69",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H70",
+          "group": "핫러너",
+          "name": "H70",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H71",
+          "group": "핫러너",
+          "name": "H71",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H72",
+          "group": "핫러너",
+          "name": "H72",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H73",
+          "group": "핫러너",
+          "name": "H73",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H74",
+          "group": "핫러너",
+          "name": "H74",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H75",
+          "group": "핫러너",
+          "name": "H75",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H76",
+          "group": "핫러너",
+          "name": "H76",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H77",
+          "group": "핫러너",
+          "name": "H77",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H78",
+          "group": "핫러너",
+          "name": "H78",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "VG1_DELAY",
+          "group": "벨브타이머",
+          "name": "GATE1_DELAY",
+          "unit": "sec",
+          "target": 0,
+          "ucl": 1,
+          "lcl": -1,
+          "enabled": true
+        },
+        {
+          "code": "VG1_OPEN",
+          "group": "벨브타이머",
+          "name": "GATE1_OPEN",
+          "unit": "sec",
+          "target": 2,
+          "ucl": 3,
+          "lcl": 1,
+          "enabled": true,
+          "vgType": "A"
+        },
+        {
+          "code": "VG2_DELAY",
+          "group": "벨브타이머",
+          "name": "GATE2_DELAY",
+          "unit": "sec",
+          "target": 2.7,
+          "ucl": 3.7,
+          "lcl": 1.7,
+          "enabled": true
+        },
+        {
+          "code": "VG2_OPEN",
+          "group": "벨브타이머",
+          "name": "GATE2_OPEN",
+          "unit": "sec",
+          "target": 2,
+          "ucl": 3,
+          "lcl": 1,
+          "enabled": true,
+          "vgType": "A"
+        },
+        {
+          "code": "VG3_DELAY",
+          "group": "벨브타이머",
+          "name": "GATE3_DELAY",
+          "unit": "sec",
+          "target": 0,
+          "ucl": 1,
+          "lcl": -1,
+          "enabled": true
+        },
+        {
+          "code": "VG3_OPEN",
+          "group": "벨브타이머",
+          "name": "GATE3_OPEN",
+          "unit": "sec",
+          "target": 0,
+          "ucl": 1,
+          "lcl": -1,
+          "enabled": true,
+          "vgType": "A"
+        },
+        {
+          "code": "VG4_DELAY",
+          "group": "벨브타이머",
+          "name": "GATE4_DELAY",
+          "unit": "sec",
+          "target": 2.5,
+          "ucl": 3.5,
+          "lcl": 1.5,
+          "enabled": true
+        },
+        {
+          "code": "VG4_OPEN",
+          "group": "벨브타이머",
+          "name": "GATE4_OPEN",
+          "unit": "sec",
+          "target": 2,
+          "ucl": 3,
+          "lcl": 1,
+          "enabled": true,
+          "vgType": "A"
+        },
+        {
+          "code": "VG5_DELAY",
+          "group": "벨브타이머",
+          "name": "GATE5_DELAY",
+          "unit": "sec",
+          "target": 0,
+          "ucl": 1,
+          "lcl": -1,
+          "enabled": true
+        },
+        {
+          "code": "VG5_OPEN",
+          "group": "벨브타이머",
+          "name": "GATE5_OPEN",
+          "unit": "sec",
+          "target": 0,
+          "ucl": 1,
+          "lcl": -1,
+          "enabled": true,
+          "vgType": "A"
+        },
+        {
+          "code": "VG6_DELAY",
+          "group": "벨브타이머",
+          "name": "GATE6_DELAY",
+          "unit": "sec",
+          "target": 0,
+          "ucl": 1,
+          "lcl": -1,
+          "enabled": true
+        },
+        {
+          "code": "VG6_OPEN",
+          "group": "벨브타이머",
+          "name": "GATE6_OPEN",
+          "unit": "sec",
+          "target": 0,
+          "ucl": 1,
+          "lcl": -1,
+          "enabled": true,
+          "vgType": "A"
+        },
+        {
+          "code": "VG7_DELAY",
+          "group": "벨브타이머",
+          "name": "GATE7_DELAY",
+          "unit": "sec",
+          "target": 0,
+          "ucl": 1,
+          "lcl": -1,
+          "enabled": true
+        },
+        {
+          "code": "VG7_OPEN",
+          "group": "벨브타이머",
+          "name": "GATE7_OPEN",
+          "unit": "sec",
+          "target": 0,
+          "ucl": 1,
+          "lcl": -1,
+          "enabled": true,
+          "vgType": "A"
+        },
+        {
+          "code": "VG8_DELAY",
+          "group": "벨브타이머",
+          "name": "GATE8_DELAY",
+          "unit": "sec",
+          "target": 0,
+          "ucl": 1,
+          "lcl": -1,
+          "enabled": true
+        },
+        {
+          "code": "VG8_OPEN",
+          "group": "벨브타이머",
+          "name": "GATE8_OPEN",
+          "unit": "sec",
+          "target": 0,
+          "ucl": 1,
+          "lcl": -1,
+          "enabled": true,
+          "vgType": "A"
+        },
+        {
+          "code": "VG9_DELAY",
+          "group": "벨브타이머",
+          "name": "GATE9_DELAY",
+          "unit": "sec",
+          "target": 0,
+          "ucl": 1,
+          "lcl": -1,
+          "enabled": true
+        },
+        {
+          "code": "VG9_OPEN",
+          "group": "벨브타이머",
+          "name": "GATE9_OPEN",
+          "unit": "sec",
+          "target": 0,
+          "ucl": 1,
+          "lcl": -1,
+          "enabled": true,
+          "vgType": "A"
+        },
+        {
+          "code": "VG10_DELAY",
+          "group": "벨브타이머",
+          "name": "GATE10_DELAY",
+          "unit": "sec",
+          "target": 0,
+          "ucl": 1,
+          "lcl": -1,
+          "enabled": true
+        },
+        {
+          "code": "VG10_OPEN",
+          "group": "벨브타이머",
+          "name": "GATE10_OPEN",
+          "unit": "sec",
+          "target": 0,
+          "ucl": 1,
+          "lcl": -1,
+          "enabled": true,
+          "vgType": "A"
+        },
+        {
+          "code": "VG11_DELAY",
+          "group": "벨브타이머",
+          "name": "GATE11_DELAY",
+          "unit": "sec",
+          "target": 0,
+          "ucl": 1,
+          "lcl": -1,
+          "enabled": true
+        },
+        {
+          "code": "VG11_OPEN",
+          "group": "벨브타이머",
+          "name": "GATE11_OPEN",
+          "unit": "sec",
+          "target": 0,
+          "ucl": 1,
+          "lcl": -1,
+          "enabled": true,
+          "vgType": "A"
+        },
+        {
+          "code": "VG12_DELAY",
+          "group": "벨브타이머",
+          "name": "GATE12_DELAY",
+          "unit": "sec",
+          "target": 0,
+          "ucl": 1,
+          "lcl": -1,
+          "enabled": true
+        },
+        {
+          "code": "VG12_OPEN",
+          "group": "벨브타이머",
+          "name": "GATE12_OPEN",
+          "unit": "sec",
+          "target": 0,
+          "ucl": 1,
+          "lcl": -1,
+          "enabled": true,
+          "vgType": "A"
+        },
+        {
+          "code": "VG13_DELAY",
+          "group": "벨브타이머",
+          "name": "GATE13_DELAY",
+          "unit": "sec",
+          "target": 0,
+          "ucl": 1,
+          "lcl": -1,
+          "enabled": true
+        },
+        {
+          "code": "VG13_OPEN",
+          "group": "벨브타이머",
+          "name": "GATE13_OPEN",
+          "unit": "sec",
+          "target": 0,
+          "ucl": 1,
+          "lcl": -1,
+          "enabled": true,
+          "vgType": "A"
+        },
+        {
+          "code": "VG14_DELAY",
+          "group": "벨브타이머",
+          "name": "GATE14_DELAY",
+          "unit": "sec",
+          "target": 0,
+          "ucl": 1,
+          "lcl": -1,
+          "enabled": true
+        },
+        {
+          "code": "VG14_OPEN",
+          "group": "벨브타이머",
+          "name": "GATE14_OPEN",
+          "unit": "sec",
+          "target": 0,
+          "ucl": 1,
+          "lcl": -1,
+          "enabled": true,
+          "vgType": "A"
+        },
+        {
+          "code": "VG15_DELAY",
+          "group": "벨브타이머",
+          "name": "GATE15_DELAY",
+          "unit": "sec",
+          "target": 0,
+          "ucl": 1,
+          "lcl": -1,
+          "enabled": true
+        },
+        {
+          "code": "VG15_OPEN",
+          "group": "벨브타이머",
+          "name": "GATE15_OPEN",
+          "unit": "sec",
+          "target": 0,
+          "ucl": 1,
+          "lcl": -1,
+          "enabled": true,
+          "vgType": "A"
+        },
+        {
+          "code": "VG16_DELAY",
+          "group": "벨브타이머",
+          "name": "GATE16_DELAY",
+          "unit": "sec",
+          "target": 0,
+          "ucl": 1,
+          "lcl": -1,
+          "enabled": true
+        },
+        {
+          "code": "VG16_OPEN",
+          "group": "벨브타이머",
+          "name": "GATE16_OPEN",
+          "unit": "sec",
+          "target": 0,
+          "ucl": 1,
+          "lcl": -1,
+          "enabled": true,
+          "vgType": "A"
+        },
+        {
+          "code": "MT_FIX",
+          "group": "금형온도1",
+          "name": "고정측",
+          "unit": "℃",
+          "target": 40,
+          "ucl": 45,
+          "lcl": 35,
+          "enabled": true
+        },
+        {
+          "code": "MT_MOV",
+          "group": "금형온도1",
+          "name": "이동측",
+          "unit": "℃",
+          "target": 30,
+          "ucl": 35,
+          "lcl": 25,
+          "enabled": true
+        },
+        {
+          "code": "MT2_FIX",
+          "group": "금형온도2",
+          "name": "고정측",
+          "unit": "℃",
+          "target": 40,
+          "ucl": 45,
+          "lcl": 35,
+          "enabled": true
+        },
+        {
+          "code": "MT2_MOV",
+          "group": "금형온도2",
+          "name": "이동측",
+          "unit": "℃",
+          "target": 30,
+          "ucl": 35,
+          "lcl": 25,
+          "enabled": true
+        },
+        {
+          "code": "CH_FIX",
+          "group": "칠러온도1",
+          "name": "고정측",
+          "unit": "℃",
+          "target": 25,
+          "ucl": 30,
+          "lcl": 20,
+          "enabled": true
+        },
+        {
+          "code": "CH_MOV",
+          "group": "칠러온도1",
+          "name": "이동측",
+          "unit": "℃",
+          "target": 20,
+          "ucl": 25,
+          "lcl": 15,
+          "enabled": true
+        },
+        {
+          "code": "CH2_FIX",
+          "group": "칠러온도2",
+          "name": "고정측",
+          "unit": "℃",
+          "target": 25,
+          "ucl": 30,
+          "lcl": 20,
+          "enabled": true
+        },
+        {
+          "code": "CH2_MOV",
+          "group": "칠러온도2",
+          "name": "이동측",
+          "unit": "℃",
+          "target": 20,
+          "ucl": 25,
+          "lcl": 15,
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "id": "P-005",
+      "차종": "PILLAR",
+      "품명": "BRKT_내수",
+      "defaults": {
+        "호기": "5호기",
+        "TON": 850,
+        "이름": "김철수",
+        "품번": "PL-BRK-DM-001",
+        "모델명": "PILLAR_내수_BRKT",
+        "원재료명": "PP-T20",
+        "GRADE": "M740",
+        "색상": "BLACK",
+        "CAVITY": 4
+      },
+      "items": [
+        {
+          "code": "IJ_V1",
+          "group": "사출속도",
+          "name": "1단",
+          "unit": "mm/s",
+          "target": 10,
+          "ucl": 13,
+          "lcl": 7,
+          "enabled": true
+        },
+        {
+          "code": "IJ_V2",
+          "group": "사출속도",
+          "name": "2단",
+          "unit": "mm/s",
+          "target": 20,
+          "ucl": 25,
+          "lcl": 15,
+          "enabled": true
+        },
+        {
+          "code": "IJ_V3",
+          "group": "사출속도",
+          "name": "3단",
+          "unit": "mm/s",
+          "target": 50,
+          "ucl": 60,
+          "lcl": 40,
+          "enabled": true
+        },
+        {
+          "code": "IJ_V4",
+          "group": "사출속도",
+          "name": "4단",
+          "unit": "mm/s",
+          "target": 15,
+          "ucl": 20,
+          "lcl": 10,
+          "enabled": true
+        },
+        {
+          "code": "IJ_V5",
+          "group": "사출속도",
+          "name": "5단",
+          "unit": "mm/s",
+          "target": 10,
+          "ucl": 15,
+          "lcl": 5,
+          "enabled": true
+        },
+        {
+          "code": "IJ_V6",
+          "group": "사출속도",
+          "name": "6단",
+          "unit": "mm/s",
+          "target": 10,
+          "ucl": 15,
+          "lcl": 5,
+          "enabled": true
+        },
+        {
+          "code": "IJ_P1",
+          "group": "사출압력",
+          "name": "1단",
+          "unit": "RKg",
+          "target": 180,
+          "ucl": 195,
+          "lcl": 165,
+          "enabled": true
+        },
+        {
+          "code": "IJ_P2",
+          "group": "사출압력",
+          "name": "2단",
+          "unit": "RKg",
+          "target": 195,
+          "ucl": 210,
+          "lcl": 180,
+          "enabled": true
+        },
+        {
+          "code": "IJ_P3",
+          "group": "사출압력",
+          "name": "3단",
+          "unit": "RKg",
+          "target": 195,
+          "ucl": 210,
+          "lcl": 180,
+          "enabled": true
+        },
+        {
+          "code": "IJ_P4",
+          "group": "사출압력",
+          "name": "4단",
+          "unit": "RKg",
+          "target": 195,
+          "ucl": 210,
+          "lcl": 180,
+          "enabled": true
+        },
+        {
+          "code": "IJ_P5",
+          "group": "사출압력",
+          "name": "5단",
+          "unit": "RKg",
+          "target": 195,
+          "ucl": 210,
+          "lcl": 180,
+          "enabled": true
+        },
+        {
+          "code": "IJ_P6",
+          "group": "사출압력",
+          "name": "6단",
+          "unit": "RKg",
+          "target": 195,
+          "ucl": 210,
+          "lcl": 180,
+          "enabled": true
+        },
+        {
+          "code": "IJ_S1",
+          "group": "사출위치",
+          "name": "1단",
+          "unit": "mm",
+          "target": 14,
+          "ucl": 17,
+          "lcl": 11,
+          "enabled": true
+        },
+        {
+          "code": "IJ_S2",
+          "group": "사출위치",
+          "name": "2단",
+          "unit": "mm",
+          "target": 80,
+          "ucl": 85,
+          "lcl": 75,
+          "enabled": true
+        },
+        {
+          "code": "IJ_S3",
+          "group": "사출위치",
+          "name": "3단",
+          "unit": "mm",
+          "target": 130,
+          "ucl": 135,
+          "lcl": 125,
+          "enabled": true
+        },
+        {
+          "code": "IJ_S4",
+          "group": "사출위치",
+          "name": "4단",
+          "unit": "mm",
+          "target": 162,
+          "ucl": 167,
+          "lcl": 157,
+          "enabled": true
+        },
+        {
+          "code": "IJ_S5",
+          "group": "사출위치",
+          "name": "5단",
+          "unit": "mm",
+          "target": 14,
+          "ucl": 17,
+          "lcl": 11,
+          "enabled": true
+        },
+        {
+          "code": "IJ_S6",
+          "group": "사출위치",
+          "name": "6단",
+          "unit": "mm",
+          "target": 14,
+          "ucl": 17,
+          "lcl": 11,
+          "enabled": true
+        },
+        {
+          "code": "IJ_FILL",
+          "group": "사이클 타임(CT)",
+          "name": "충진시간",
+          "unit": "sec",
+          "target": 3,
+          "ucl": 3.5,
+          "lcl": 2.5,
+          "enabled": true
+        },
+        {
+          "code": "IJ_TIME",
+          "group": "사이클 타임(CT)",
+          "name": "사출시간",
+          "unit": "sec",
+          "target": 15,
+          "ucl": 16,
+          "lcl": 14,
+          "enabled": true
+        },
+        {
+          "code": "IJ_CUSHION",
+          "group": "사이클 타임(CT)",
+          "name": "쿠션잔량",
+          "unit": "mm",
+          "target": 12,
+          "ucl": 15,
+          "lcl": 9,
+          "enabled": true
+        },
+        {
+          "code": "CYC_COOL",
+          "group": "사이클 타임(CT)",
+          "name": "냉각시간",
+          "unit": "sec",
+          "target": 57,
+          "ucl": 62,
+          "lcl": 52,
+          "enabled": true
+        },
+        {
+          "code": "HP_T_PH1",
+          "group": "사이클 타임(CT)",
+          "name": "보압시간 PH1",
+          "unit": "sec",
+          "target": 0,
+          "ucl": 1,
+          "lcl": -1,
+          "enabled": true
+        },
+        {
+          "code": "HP_T_PH2",
+          "group": "사이클 타임(CT)",
+          "name": "보압시간 PH2",
+          "unit": "sec",
+          "target": 9,
+          "ucl": 10,
+          "lcl": 8,
+          "enabled": true
+        },
+        {
+          "code": "HP_T_PH3",
+          "group": "사이클 타임(CT)",
+          "name": "보압시간 PH3",
+          "unit": "sec",
+          "target": 0,
+          "ucl": 1,
+          "lcl": -1,
+          "enabled": true
+        },
+        {
+          "code": "HP_T_PH4",
+          "group": "사이클 타임(CT)",
+          "name": "보압시간 PH4",
+          "unit": "sec",
+          "target": 0,
+          "ucl": 1,
+          "lcl": -1,
+          "enabled": true
+        },
+        {
+          "code": "CYC_TOTAL",
+          "group": "사이클 타임(CT)",
+          "name": "CYCLE TIME",
+          "unit": "sec",
+          "target": 95,
+          "ucl": 100,
+          "lcl": 90,
+          "enabled": true
+        },
+        {
+          "code": "HP_P1",
+          "group": "보압압력",
+          "name": "1단",
+          "unit": "bar",
+          "target": 110,
+          "ucl": 120,
+          "lcl": 100,
+          "enabled": true
+        },
+        {
+          "code": "HP_P2",
+          "group": "보압압력",
+          "name": "2단",
+          "unit": "bar",
+          "target": 110,
+          "ucl": 120,
+          "lcl": 100,
+          "enabled": true
+        },
+        {
+          "code": "HP_P3",
+          "group": "보압압력",
+          "name": "3단",
+          "unit": "bar",
+          "target": 110,
+          "ucl": 120,
+          "lcl": 100,
+          "enabled": true
+        },
+        {
+          "code": "HP_P4",
+          "group": "보압압력",
+          "name": "4단",
+          "unit": "bar",
+          "target": 110,
+          "ucl": 120,
+          "lcl": 100,
+          "enabled": true
+        },
+        {
+          "code": "HP_P5",
+          "group": "보압압력",
+          "name": "5단",
+          "unit": "bar",
+          "target": 110,
+          "ucl": 120,
+          "lcl": 100,
+          "enabled": true
+        },
+        {
+          "code": "BP_1",
+          "group": "배압",
+          "name": "1단",
+          "unit": "bar",
+          "target": 20,
+          "ucl": 25,
+          "lcl": 15,
+          "enabled": true
+        },
+        {
+          "code": "BP_2",
+          "group": "배압",
+          "name": "2단",
+          "unit": "bar",
+          "target": 20,
+          "ucl": 25,
+          "lcl": 15,
+          "enabled": true
+        },
+        {
+          "code": "BP_3",
+          "group": "배압",
+          "name": "3단",
+          "unit": "bar",
+          "target": 20,
+          "ucl": 25,
+          "lcl": 15,
+          "enabled": true
+        },
+        {
+          "code": "PL_V1",
+          "group": "계량속도",
+          "name": "1단",
+          "unit": "%",
+          "target": 20,
+          "ucl": 25,
+          "lcl": 15,
+          "enabled": true
+        },
+        {
+          "code": "PL_V2",
+          "group": "계량속도",
+          "name": "2단",
+          "unit": "%",
+          "target": 20,
+          "ucl": 25,
+          "lcl": 15,
+          "enabled": true
+        },
+        {
+          "code": "PL_V3",
+          "group": "계량속도",
+          "name": "3단",
+          "unit": "%",
+          "target": 20,
+          "ucl": 25,
+          "lcl": 15,
+          "enabled": true
+        },
+        {
+          "code": "PL_DONE",
+          "group": "계량완료",
+          "name": "계량완료거리",
+          "unit": "mm",
+          "target": 150,
+          "ucl": 160,
+          "lcl": 140,
+          "enabled": true
+        },
+        {
+          "code": "CY_NOZZLE",
+          "group": "실린더온도",
+          "name": "노즐",
+          "unit": "℃",
+          "target": 225,
+          "ucl": 235,
+          "lcl": 215,
+          "enabled": true
+        },
+        {
+          "code": "CY_H1",
+          "group": "실린더온도",
+          "name": "H1",
+          "unit": "℃",
+          "target": 250,
+          "ucl": 260,
+          "lcl": 240,
+          "enabled": true
+        },
+        {
+          "code": "CY_H2",
+          "group": "실린더온도",
+          "name": "H2",
+          "unit": "℃",
+          "target": 250,
+          "ucl": 260,
+          "lcl": 240,
+          "enabled": true
+        },
+        {
+          "code": "CY_H3",
+          "group": "실린더온도",
+          "name": "H3",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "CY_H4",
+          "group": "실린더온도",
+          "name": "H4",
+          "unit": "℃",
+          "target": 230,
+          "ucl": 240,
+          "lcl": 220,
+          "enabled": true
+        },
+        {
+          "code": "CY_H5",
+          "group": "실린더온도",
+          "name": "H5",
+          "unit": "℃",
+          "target": 220,
+          "ucl": 230,
+          "lcl": 210,
+          "enabled": true
+        },
+        {
+          "code": "CY_H6",
+          "group": "실린더온도",
+          "name": "H6",
+          "unit": "℃",
+          "target": 200,
+          "ucl": 210,
+          "lcl": 190,
+          "enabled": true
+        },
+        {
+          "code": "HR_TYPE",
+          "group": "핫러너",
+          "name": "열전대타입",
+          "unit": "-",
+          "textType": true,
+          "options": [
+            "K",
+            "J"
+          ],
+          "target": "K",
+          "ucl": null,
+          "lcl": null,
+          "enabled": true
+        },
+        {
+          "code": "HR_H1",
+          "group": "핫러너",
+          "name": "H1",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H2",
+          "group": "핫러너",
+          "name": "H2",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H3",
+          "group": "핫러너",
+          "name": "H3",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H4",
+          "group": "핫러너",
+          "name": "H4",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H5",
+          "group": "핫러너",
+          "name": "H5",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H6",
+          "group": "핫러너",
+          "name": "H6",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H7",
+          "group": "핫러너",
+          "name": "H7",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H8",
+          "group": "핫러너",
+          "name": "H8",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H9",
+          "group": "핫러너",
+          "name": "H9",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H10",
+          "group": "핫러너",
+          "name": "H10",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H11",
+          "group": "핫러너",
+          "name": "H11",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H12",
+          "group": "핫러너",
+          "name": "H12",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H13",
+          "group": "핫러너",
+          "name": "H13",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H14",
+          "group": "핫러너",
+          "name": "H14",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H15",
+          "group": "핫러너",
+          "name": "H15",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H16",
+          "group": "핫러너",
+          "name": "H16",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H17",
+          "group": "핫러너",
+          "name": "H17",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H18",
+          "group": "핫러너",
+          "name": "H18",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H19",
+          "group": "핫러너",
+          "name": "H19",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H20",
+          "group": "핫러너",
+          "name": "H20",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H21",
+          "group": "핫러너",
+          "name": "H21",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H22",
+          "group": "핫러너",
+          "name": "H22",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H23",
+          "group": "핫러너",
+          "name": "H23",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H24",
+          "group": "핫러너",
+          "name": "H24",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H25",
+          "group": "핫러너",
+          "name": "H25",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H26",
+          "group": "핫러너",
+          "name": "H26",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H27",
+          "group": "핫러너",
+          "name": "H27",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H28",
+          "group": "핫러너",
+          "name": "H28",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H29",
+          "group": "핫러너",
+          "name": "H29",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H30",
+          "group": "핫러너",
+          "name": "H30",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H31",
+          "group": "핫러너",
+          "name": "H31",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H32",
+          "group": "핫러너",
+          "name": "H32",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H33",
+          "group": "핫러너",
+          "name": "H33",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H34",
+          "group": "핫러너",
+          "name": "H34",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H35",
+          "group": "핫러너",
+          "name": "H35",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H36",
+          "group": "핫러너",
+          "name": "H36",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H37",
+          "group": "핫러너",
+          "name": "H37",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H38",
+          "group": "핫러너",
+          "name": "H38",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H39",
+          "group": "핫러너",
+          "name": "H39",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H40",
+          "group": "핫러너",
+          "name": "H40",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H41",
+          "group": "핫러너",
+          "name": "H41",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H42",
+          "group": "핫러너",
+          "name": "H42",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H43",
+          "group": "핫러너",
+          "name": "H43",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H44",
+          "group": "핫러너",
+          "name": "H44",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H45",
+          "group": "핫러너",
+          "name": "H45",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H46",
+          "group": "핫러너",
+          "name": "H46",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H47",
+          "group": "핫러너",
+          "name": "H47",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H48",
+          "group": "핫러너",
+          "name": "H48",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H49",
+          "group": "핫러너",
+          "name": "H49",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H50",
+          "group": "핫러너",
+          "name": "H50",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H51",
+          "group": "핫러너",
+          "name": "H51",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H52",
+          "group": "핫러너",
+          "name": "H52",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H53",
+          "group": "핫러너",
+          "name": "H53",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H54",
+          "group": "핫러너",
+          "name": "H54",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H55",
+          "group": "핫러너",
+          "name": "H55",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H56",
+          "group": "핫러너",
+          "name": "H56",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H57",
+          "group": "핫러너",
+          "name": "H57",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H58",
+          "group": "핫러너",
+          "name": "H58",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H59",
+          "group": "핫러너",
+          "name": "H59",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H60",
+          "group": "핫러너",
+          "name": "H60",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H61",
+          "group": "핫러너",
+          "name": "H61",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H62",
+          "group": "핫러너",
+          "name": "H62",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H63",
+          "group": "핫러너",
+          "name": "H63",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H64",
+          "group": "핫러너",
+          "name": "H64",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H65",
+          "group": "핫러너",
+          "name": "H65",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H66",
+          "group": "핫러너",
+          "name": "H66",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H67",
+          "group": "핫러너",
+          "name": "H67",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H68",
+          "group": "핫러너",
+          "name": "H68",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H69",
+          "group": "핫러너",
+          "name": "H69",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H70",
+          "group": "핫러너",
+          "name": "H70",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H71",
+          "group": "핫러너",
+          "name": "H71",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H72",
+          "group": "핫러너",
+          "name": "H72",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H73",
+          "group": "핫러너",
+          "name": "H73",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H74",
+          "group": "핫러너",
+          "name": "H74",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H75",
+          "group": "핫러너",
+          "name": "H75",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H76",
+          "group": "핫러너",
+          "name": "H76",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H77",
+          "group": "핫러너",
+          "name": "H77",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "HR_H78",
+          "group": "핫러너",
+          "name": "H78",
+          "unit": "℃",
+          "target": 240,
+          "ucl": 250,
+          "lcl": 230,
+          "enabled": true
+        },
+        {
+          "code": "VG1_DELAY",
+          "group": "벨브타이머",
+          "name": "GATE1_DELAY",
+          "unit": "sec",
+          "target": 0,
+          "ucl": 1,
+          "lcl": -1,
+          "enabled": true
+        },
+        {
+          "code": "VG1_OPEN",
+          "group": "벨브타이머",
+          "name": "GATE1_OPEN",
+          "unit": "sec",
+          "target": 2,
+          "ucl": 3,
+          "lcl": 1,
+          "enabled": true,
+          "vgType": "A"
+        },
+        {
+          "code": "VG2_DELAY",
+          "group": "벨브타이머",
+          "name": "GATE2_DELAY",
+          "unit": "sec",
+          "target": 2.7,
+          "ucl": 3.7,
+          "lcl": 1.7,
+          "enabled": true
+        },
+        {
+          "code": "VG2_OPEN",
+          "group": "벨브타이머",
+          "name": "GATE2_OPEN",
+          "unit": "sec",
+          "target": 2,
+          "ucl": 3,
+          "lcl": 1,
+          "enabled": true,
+          "vgType": "A"
+        },
+        {
+          "code": "VG3_DELAY",
+          "group": "벨브타이머",
+          "name": "GATE3_DELAY",
+          "unit": "sec",
+          "target": 0,
+          "ucl": 1,
+          "lcl": -1,
+          "enabled": true
+        },
+        {
+          "code": "VG3_OPEN",
+          "group": "벨브타이머",
+          "name": "GATE3_OPEN",
+          "unit": "sec",
+          "target": 0,
+          "ucl": 1,
+          "lcl": -1,
+          "enabled": true,
+          "vgType": "A"
+        },
+        {
+          "code": "VG4_DELAY",
+          "group": "벨브타이머",
+          "name": "GATE4_DELAY",
+          "unit": "sec",
+          "target": 2.5,
+          "ucl": 3.5,
+          "lcl": 1.5,
+          "enabled": true
+        },
+        {
+          "code": "VG4_OPEN",
+          "group": "벨브타이머",
+          "name": "GATE4_OPEN",
+          "unit": "sec",
+          "target": 2,
+          "ucl": 3,
+          "lcl": 1,
+          "enabled": true,
+          "vgType": "A"
+        },
+        {
+          "code": "VG5_DELAY",
+          "group": "벨브타이머",
+          "name": "GATE5_DELAY",
+          "unit": "sec",
+          "target": 0,
+          "ucl": 1,
+          "lcl": -1,
+          "enabled": true
+        },
+        {
+          "code": "VG5_OPEN",
+          "group": "벨브타이머",
+          "name": "GATE5_OPEN",
+          "unit": "sec",
+          "target": 0,
+          "ucl": 1,
+          "lcl": -1,
+          "enabled": true,
+          "vgType": "A"
+        },
+        {
+          "code": "VG6_DELAY",
+          "group": "벨브타이머",
+          "name": "GATE6_DELAY",
+          "unit": "sec",
+          "target": 0,
+          "ucl": 1,
+          "lcl": -1,
+          "enabled": true
+        },
+        {
+          "code": "VG6_OPEN",
+          "group": "벨브타이머",
+          "name": "GATE6_OPEN",
+          "unit": "sec",
+          "target": 0,
+          "ucl": 1,
+          "lcl": -1,
+          "enabled": true,
+          "vgType": "A"
+        },
+        {
+          "code": "VG7_DELAY",
+          "group": "벨브타이머",
+          "name": "GATE7_DELAY",
+          "unit": "sec",
+          "target": 0,
+          "ucl": 1,
+          "lcl": -1,
+          "enabled": true
+        },
+        {
+          "code": "VG7_OPEN",
+          "group": "벨브타이머",
+          "name": "GATE7_OPEN",
+          "unit": "sec",
+          "target": 0,
+          "ucl": 1,
+          "lcl": -1,
+          "enabled": true,
+          "vgType": "A"
+        },
+        {
+          "code": "VG8_DELAY",
+          "group": "벨브타이머",
+          "name": "GATE8_DELAY",
+          "unit": "sec",
+          "target": 0,
+          "ucl": 1,
+          "lcl": -1,
+          "enabled": true
+        },
+        {
+          "code": "VG8_OPEN",
+          "group": "벨브타이머",
+          "name": "GATE8_OPEN",
+          "unit": "sec",
+          "target": 0,
+          "ucl": 1,
+          "lcl": -1,
+          "enabled": true,
+          "vgType": "A"
+        },
+        {
+          "code": "VG9_DELAY",
+          "group": "벨브타이머",
+          "name": "GATE9_DELAY",
+          "unit": "sec",
+          "target": 0,
+          "ucl": 1,
+          "lcl": -1,
+          "enabled": true
+        },
+        {
+          "code": "VG9_OPEN",
+          "group": "벨브타이머",
+          "name": "GATE9_OPEN",
+          "unit": "sec",
+          "target": 0,
+          "ucl": 1,
+          "lcl": -1,
+          "enabled": true,
+          "vgType": "A"
+        },
+        {
+          "code": "VG10_DELAY",
+          "group": "벨브타이머",
+          "name": "GATE10_DELAY",
+          "unit": "sec",
+          "target": 0,
+          "ucl": 1,
+          "lcl": -1,
+          "enabled": true
+        },
+        {
+          "code": "VG10_OPEN",
+          "group": "벨브타이머",
+          "name": "GATE10_OPEN",
+          "unit": "sec",
+          "target": 0,
+          "ucl": 1,
+          "lcl": -1,
+          "enabled": true,
+          "vgType": "A"
+        },
+        {
+          "code": "VG11_DELAY",
+          "group": "벨브타이머",
+          "name": "GATE11_DELAY",
+          "unit": "sec",
+          "target": 0,
+          "ucl": 1,
+          "lcl": -1,
+          "enabled": true
+        },
+        {
+          "code": "VG11_OPEN",
+          "group": "벨브타이머",
+          "name": "GATE11_OPEN",
+          "unit": "sec",
+          "target": 0,
+          "ucl": 1,
+          "lcl": -1,
+          "enabled": true,
+          "vgType": "A"
+        },
+        {
+          "code": "VG12_DELAY",
+          "group": "벨브타이머",
+          "name": "GATE12_DELAY",
+          "unit": "sec",
+          "target": 0,
+          "ucl": 1,
+          "lcl": -1,
+          "enabled": true
+        },
+        {
+          "code": "VG12_OPEN",
+          "group": "벨브타이머",
+          "name": "GATE12_OPEN",
+          "unit": "sec",
+          "target": 0,
+          "ucl": 1,
+          "lcl": -1,
+          "enabled": true,
+          "vgType": "A"
+        },
+        {
+          "code": "VG13_DELAY",
+          "group": "벨브타이머",
+          "name": "GATE13_DELAY",
+          "unit": "sec",
+          "target": 0,
+          "ucl": 1,
+          "lcl": -1,
+          "enabled": true
+        },
+        {
+          "code": "VG13_OPEN",
+          "group": "벨브타이머",
+          "name": "GATE13_OPEN",
+          "unit": "sec",
+          "target": 0,
+          "ucl": 1,
+          "lcl": -1,
+          "enabled": true,
+          "vgType": "A"
+        },
+        {
+          "code": "VG14_DELAY",
+          "group": "벨브타이머",
+          "name": "GATE14_DELAY",
+          "unit": "sec",
+          "target": 0,
+          "ucl": 1,
+          "lcl": -1,
+          "enabled": true
+        },
+        {
+          "code": "VG14_OPEN",
+          "group": "벨브타이머",
+          "name": "GATE14_OPEN",
+          "unit": "sec",
+          "target": 0,
+          "ucl": 1,
+          "lcl": -1,
+          "enabled": true,
+          "vgType": "A"
+        },
+        {
+          "code": "VG15_DELAY",
+          "group": "벨브타이머",
+          "name": "GATE15_DELAY",
+          "unit": "sec",
+          "target": 0,
+          "ucl": 1,
+          "lcl": -1,
+          "enabled": true
+        },
+        {
+          "code": "VG15_OPEN",
+          "group": "벨브타이머",
+          "name": "GATE15_OPEN",
+          "unit": "sec",
+          "target": 0,
+          "ucl": 1,
+          "lcl": -1,
+          "enabled": true,
+          "vgType": "A"
+        },
+        {
+          "code": "VG16_DELAY",
+          "group": "벨브타이머",
+          "name": "GATE16_DELAY",
+          "unit": "sec",
+          "target": 0,
+          "ucl": 1,
+          "lcl": -1,
+          "enabled": true
+        },
+        {
+          "code": "VG16_OPEN",
+          "group": "벨브타이머",
+          "name": "GATE16_OPEN",
+          "unit": "sec",
+          "target": 0,
+          "ucl": 1,
+          "lcl": -1,
+          "enabled": true,
+          "vgType": "A"
+        },
+        {
+          "code": "MT_FIX",
+          "group": "금형온도1",
+          "name": "고정측",
+          "unit": "℃",
+          "target": 35,
+          "ucl": 45,
+          "lcl": 25,
+          "enabled": true
+        },
+        {
+          "code": "MT_MOV",
+          "group": "금형온도1",
+          "name": "이동측",
+          "unit": "℃",
+          "target": 30,
+          "ucl": 35,
+          "lcl": 25,
+          "enabled": true
+        },
+        {
+          "code": "MT2_FIX",
+          "group": "금형온도2",
+          "name": "고정측",
+          "unit": "℃",
+          "target": 40,
+          "ucl": 45,
+          "lcl": 35,
+          "enabled": true
+        },
+        {
+          "code": "MT2_MOV",
+          "group": "금형온도2",
+          "name": "이동측",
+          "unit": "℃",
+          "target": 30,
+          "ucl": 35,
+          "lcl": 25,
+          "enabled": true
+        },
+        {
+          "code": "CH_FIX",
+          "group": "칠러온도1",
+          "name": "고정측",
+          "unit": "℃",
+          "target": 25,
+          "ucl": 30,
+          "lcl": 20,
+          "enabled": true
+        },
+        {
+          "code": "CH_MOV",
+          "group": "칠러온도1",
+          "name": "이동측",
+          "unit": "℃",
+          "target": 20,
+          "ucl": 25,
+          "lcl": 15,
+          "enabled": true
+        },
+        {
+          "code": "CH2_FIX",
+          "group": "칠러온도2",
+          "name": "고정측",
+          "unit": "℃",
+          "target": 25,
+          "ucl": 30,
+          "lcl": 20,
+          "enabled": true
+        },
+        {
+          "code": "CH2_MOV",
+          "group": "칠러온도2",
+          "name": "이동측",
+          "unit": "℃",
+          "target": 20,
+          "ucl": 25,
+          "lcl": 15,
+          "enabled": true
+        }
+      ]
+    }
+  ]
+}
